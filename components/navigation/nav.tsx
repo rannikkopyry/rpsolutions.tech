@@ -67,7 +67,7 @@ export const Nav = () => (
 
         .nav__link {
           vertical-align: middle;
-          color: #cecece;
+          color: #000000;
         }
         .nav__link.active {
           color: #fff;

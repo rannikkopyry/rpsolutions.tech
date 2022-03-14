@@ -13,81 +13,19 @@ export const Header: React.FC = () => (
         <ColorLines />
         <article className="hero__article">
           <h1 className="title">
-            2020-luvun <br />
+            Kainuulaista <br />
             ohjelmistokehitystä <br />
-            Tampereelta.
+            nuorekkaalla otteella.
           </h1>
           <p className="description">
-            Rare on tamperelainen web- ja käyttöliittymäkehitykseen erikoistunut
-            ohjelmistoyritys. Suunnittelemme & rakennamme sovelluksia,
-            prototyyppejä, verkkosivuja ja verkkokauppoja yhdessä asiakkaidemme
-            kanssa.
+            Olemme Kainuulainen ohjelmistokehitykseen erikoistunut yritys.
+            Autamme yrityksesi liiketoiminnan kehittämisessä tuottamalla
+            laadukkaita ja persoonallisia verkkopalveluita. Toteutamme
+            frontend-, backend- sekä API-kehitystä. Myös nykyaikaisten
+            pilvipalveluiden intregrointi sovelluksiin onnistuu mieltä.
+           Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
           </p>
-          <Button href="#contact">Ota yhteyttä</Button>
         </article>
-      </section>
-
-      <section className="references">
-        <h3 className="description">Meihin luottavat</h3>
-
-        <p className="references__images">
-          <a href="https://www.tieto.com/fi/" target="blank">
-            <img
-              src="../static/references/tieto.svg"
-              className="logo tieto"
-              alt="Tieto Oyj"
-            />
-          </a>
-          <a href="https://linnunrata.fi" target="blank">
-            <img
-              src="../static/references/linnunrata.svg"
-              className="logo linnunrata"
-              alt="Linnunrata"
-            />
-          </a>
-          <a href="https://www.simucu.be/" target="blank">
-            <img
-              src="../static/references/simucube.svg"
-              className="logo simucube"
-              alt="Simucube"
-            />
-          </a>
-          <a href="https://instagrid.co" target="blank">
-            <img
-              src="../static/references/instagrid.svg"
-              className="logo instagrid"
-              alt="Instagrid"
-            />
-          </a>
-          <a href="https://plan-international.org/" target="blank">
-            <img
-              src="../static/references/plan.svg"
-              className="logo plan"
-              alt="Plan International"
-            />
-          </a>
-          <a href="https://sharpershape.com/" target="blank">
-            <img
-              src="../static/references/sharper-shape.svg"
-              className="logo sharper"
-              alt="Sharper Shape"
-            />
-          </a>
-          <a href="https://cultsecurity.com/" target="blank">
-            <img
-              src="../static/references/cult-black.png"
-              className="logo cult"
-              alt="Cult Security"
-            />
-          </a>
-          <a href="https://www.veracell.com/" target="blank">
-            <img
-              src="../static/references/veracell.svg"
-              alt="Veracell"
-              className="logo veracell"
-            />
-          </a>
-        </p>
       </section>
     </Center>
 
@@ -97,10 +35,10 @@ export const Header: React.FC = () => (
         flex-direction: column;
         background: linear-gradient(
           95.62deg,
-          #000d1a 40.28%,
+          #D0A699 40.28%,
           hsla(210, 100%, 3%, 1) 99.06%
         );
-        color: #fff;
+        color: #00000;
         padding-bottom: 1rem;
         min-height: 100%;
         box-sizing: border-box;
@@ -149,7 +87,7 @@ export const Header: React.FC = () => (
 
       .description {
         font-size: 1.2rem;
-        width: 55%;
+        width: 75%;
       }
 
       .references h3 {

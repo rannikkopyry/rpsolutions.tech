@@ -36,7 +36,7 @@ export const WorkspaceSection: React.FC = () => (
       .section {
         display: flex;
         position: relative;
-        background: #000d1a;
+        background-color: #d0a699;
       }
       .section::before,
       .section::after {
@@ -46,9 +46,6 @@ export const WorkspaceSection: React.FC = () => (
         height: 50px;
         width: 100%;
         z-index: 1;
-        background: url('/static/skew.svg');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
       }
 
       .section::after {
@@ -64,7 +61,7 @@ export const WorkspaceSection: React.FC = () => (
 
       .section__article {
         padding: 5rem 0;
-        width: 45%;
+        text-align: center;
         color: #fff;
       }
 
@@ -74,10 +71,6 @@ export const WorkspaceSection: React.FC = () => (
         top: 0;
         bottom: 0;
         width: 50%;
-
-        // -2px to hide #e8e502 background color from left side
-        background: #fff6e2 url('static/workspace.svg') -2px top no-repeat;
-        background-size: auto 105%;
       }
 
       @media (max-width: 1000px) {

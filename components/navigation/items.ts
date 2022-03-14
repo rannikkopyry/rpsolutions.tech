@@ -1,15 +1,15 @@
 export const items = [
   {
     url: '/',
-    text: 'Me'
+    text: 'Yritys'
   },
   {
     url: '/training',
-    text: 'Workshopit'
+    text: 'Palvelut'
   },
   {
     url: '/careers',
-    text: 'Työpaikat'
+    text: 'Toimintatapamme'
   },
   {
     url: '/blog',

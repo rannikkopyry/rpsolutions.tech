@@ -10,89 +10,95 @@ const Home = () => {
         <div>
           <AboutSection>
             <h2>
-              Web-kehityksen erikoisosaajat
-              <br /> seuraavaan projektiinne
+              Palvelumme
+              <br />
             </h2>
 
             <p>
-              Rare on erikoistunut frontend- ja backend-, API ja
-              pilvikehitykseen.{' '}
+              Lähtökohtamme on aina kuunnella asiakkaan idea ja jalostaa siitä
+              toimiva palvelu loppukäyttäjää varten.{' '}
               <span className="gray">
-                Jaamme oman tietotaitomme digitaalisten tuotteiden
-                kehittämisestä ja autamme projektin ohjaamisessa aina ideasta
-                tuotantoon.
+                Kaikissa projekteissamme etusijalla on helppokäyttöisyys,
+                ylläpidettävyys, tietoturva sekä näyttävä visuaalinen ilme.
               </span>
             </p>
           </AboutSection>
-          <AboutSection
-            image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
-            reverse={true}
-          >
-            <h3>Teemme konsepteista käsinkosketeltavia</h3>
+          <AboutSection>
+            <h3>Ohjelmistokehitys</h3>
             <p>
-              Rakennamme nopeita prototyyppejä, MVP toteutuksia ja kokonaisia
-              sovelluksia aina ideasta tuotantoon saakka. Teemme tiiviisti
-              yhteistyötä kanssanne niin konseptoinnissa kuin toteutuksessakin.
+              Tuotamme juuri sinun tai yrityksesi tarpeisiin soveltuvat
+              ohjelmistot suunnittelusta käyttöönottoon saakka. Oli kyseessä
+              sitten täysin uusin sovellus tai vanhan muokkaus ja ehostus,
+              kauttamme työ hoituu kätevästi. Voit olla varma että sovelluksesi
+              on käyttäjäystävällinen, tietoturvallinen sekä tietenkin
+              persoonallinen. Hyödynnämme töissä edistyneimpiä teknologioita
+              varmistaen näin myös sovelluksen pitkän elinkaaren. Älä epäile
+              myöskään kysyä jos jokin asia jää epäselväksi.
             </p>
-
-            <h3>Rare osana tiimiänne</h3>
+            <h3>Verkkosivut</h3>
             <p>
-              Datan visualisointi, Web- ja mobiilikehitys, APIt, Pilvipalvelut,
-              Moderni DevOps.
-              <br />
-              Tulemme myös mielellämme osaksi valmista tiimiä tuoden osaamisemme
-              ja ohjelmistokehityksen parhaat käytännöt mukanamme.
+              Tuliterät sivut tai vanhojen uusiminen, meiltä se käy käden
+              käänteessä. Asiakkaan kanssa kartoitetaan toiveet, vaatimukset ja
+              sisältöä, jonka jälkeen sivua voidaan kehittää suljetussa
+              ympäristössä poissa muiden ihmisten katseilta. Valmista sivua on
+              myös tarpeen mukaan helppo päivittää julkaisun jälkeen. Koko
+              paketti meiltä tehokkaasti ja edullisesti. Toteutamme myös
+              verkkokaupat.
+            </p>
+            <h3>Mobiilisovellukset</h3>
+            <p>
+              Jos etsit kumppania mobiilisovelluksen toteutukseen tai sen
+              ylläpitoon, olet oikeassa paikassa. Hyvin toteutetulla
+              sovelluksella yrityksen kilpailukyky digitalisaation vallitessa
+              paranee. Pääset myös itse mukaan kehitystyöhön, jolloin tuotteesta
+              saadaan asiakkaan näköinen. Mukaudumme projektikohtaisesti ja
+              valitsemme sovellukseesi sopivat teknlogiat. Jos kaipaat
+              lisätietoja ota rohkeasti yhteyttä, tyhmiä kysymyksiä ei ole!
+            </p>
+            <h3>API-ratkaisut</h3>
+            <p>
+              Suurien datamäärien liikuttelemiseksi ohjelmistojen välillä
+              tarvitaan rajapintoja. Api:t ovat myös avainasemassa skaalautuvien
+              ja ketterien ohjelmistoprojektien sisällä. Meiltä kaikki palvelut
+              konsultoinnista API-ratkaisujen suunnitteluun ja asiakaskohtaiseen
+              räätälöintiin. "Kommunikaatio ihmisten välillä on tärkeää, mutta
+              ohjelmistojen välillä tärkeämpää. "
             </p>
           </AboutSection>
         </div>
-
         <WorkspaceSection />
+
+
         <div>
           <AboutSection>
-            <h2>Ohjelmistokehittäjien luottama</h2>
+            <h2>Toimintatapamme</h2>
             <p>
-              Autamme teitä luomaan odotukset ylittäviä ohjelmistoja, joihin
-              käyttäjät rakastuvat.
+            Autamme teitä luomaan pitkäjänteisiä ohjelmistoratkaisuja
+              käyttäjäkokemus etusijalla.{' '}
             </p>
-          </AboutSection>
-          <AboutSection reverse={false}>
+            <h2>Mutta kuinka me teemme sen?</h2>
             <h3>Ketterä kehitys</h3>
             <p>
-              <img src="/static/kanban.svg" alt="Kanban" />
-              Pyrimme tehokkuuteen, laatuun ja läpinäkyvyyteen myös
-              toimintatavoissamme. <br />
-              Luotamme ketteriin ohjelmistokehityksen menetelmiin ja tuomme ne
-              mukanamme myös teidän luoksenne.
-              <br />
-              <br />
-              Parhaassa tilanteessa teemme itsestämme tarpeettomia, kun tiiminne
-              on omaksunut meiltä tarvittavat tiedot, taidot ja prosessit.
-              Työmme valmistuttua voitte tukeutua omaan tiimiinne, ja kulkea
-              kohti tulevaisuuden projekteja itsevarmoin askelin.
+              Ketterä kehitys Ketterät ohjelmistoprojektit jaetaan eri pituisiin
+              "sprintteihin". Sprintit voivat olla eripituisia ja sisällöltään
+              hyvin erilaisia, mutta olennaisinta on niiden aikana ja välissä
+              tapahtuma viestintä asiakkaan ja devaajan välillä. Kun on selvillä
+              tarpeet ja mahdollisuudet, on helppo toteuttaa näyttävä
+              lopputulos. Ohjelmistoprojektit alkavat aina huolellisella
+              suunittelulla ja asiakkaan kanssa yhdessä kartoitetaan vaatimukset
+              ja toiveet.
             </p>
-
-            <h3>Teknologia</h3>
+            <h3>Teknologiat</h3>
             <p>
-              Tykkäämme pysyä ajan tasalla uusimmista teknologioista, mutta
-              tärkeintä on oikean työkalun valitseminen kussakin tapauksessa
-              olevan ongelman ratkaisemiseen.
-              <br />
-              <br />
-              Käytämme jatkuvasti avoimen lähdekoodin ratkaisuja, ja seuraamme
-              alan kehitystä aktiivisena osana yhteisöä. Viime aikoina olemme
-              suosineet projekteissamme muun muassa seuraavia teknologioita:
-              <br />
-              <strong>
-                <ul>
-                  <li>TypeScript, JavaScript</li>
-                  <li>Vue, React, Angular</li>
-                  <li>React Native, Flutter</li>
-                  <li>Node.js, GraphQL, PostgreSQL, Serverless Framework</li>
-                  <li>AWS, Azure, Docker, Terraform</li>
-                  <li>Shopify</li>
-                </ul>
-              </strong>
+              Pystyäksemme tuottamaan mahdollisimman käyttäjäystävällisiä sekä
+              skaalautuvia tuotteita, käytämme aina edistyneimpiä teknologioita
+              ja työkaluja.
             </p>
+            <h3>Näistä esimerkkeinä mm.</h3>
+            <p>- TypeScipt & JavaScript</p>
+            <p>- React & React Native</p>
+            <p>- Node.js, Express.js, GraphQL, PostgreSQL & MongoDB</p>
+            <p>- Netlify & AWS</p>
           </AboutSection>
         </div>
       </Layout>

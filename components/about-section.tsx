@@ -62,16 +62,14 @@ export const AboutSection: React.FC<Props> = ({
         display: grid;
         grid-row: 1;
         ${reverse ? 'grid-column: 2;' : 'grid-column: 1;'}
-        margin-right: 20%;
         grid-template-columns: 240px auto;
+        text-align: center;
       }
       .section__article :global(img) {
         margin-left: 2rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         float: right;
-        max-width: 50%;
-        margin-right: -20%;
       }
       .section :global(h2) {
         grid-column: 1 / span 2;
@@ -94,15 +92,6 @@ export const AboutSection: React.FC<Props> = ({
         grid-column: 1;
         position: relative;
         align-self: flex-start;
-      }
-      .section :global(h3::after) {
-        content: '';
-        width: 2rem;
-        height: 3px;
-        background: #fdc9b4;
-        position: absolute;
-        bottom: -0.5em;
-        left: 0;
       }
       .section :global(p) {
         margin-top: 1rem;
@@ -130,7 +119,6 @@ export const AboutSection: React.FC<Props> = ({
         .section__article :global(img) {
           margin-right: 0;
           margin-bottom: 0;
-          max-width: 40%;
           max-height: 300px;
           display: block;
         }

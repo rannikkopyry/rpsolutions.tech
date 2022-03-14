@@ -5,8 +5,8 @@ import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
 
 const DESCRIPTION =
-  'Luotettu teknologiakumppani seuraavaan projektiisi. Rakennamme webbipalveluita, mobiilisovelluksia sekä prototyyppejä yhdessä teidän kanssanne.';
-const TITLE = 'Rare Tampere - 2020-luvun ohjelmistokehitystä';
+  'Meiltä verkkosivut, -kaupat, mobiilisovellukset, API:t ja paljon muuta.';
+const TITLE = 'RP-Solutions Oy - Kainuulaista ohjelmistokehitystä';
 
 export type BaseProps = { title?: string; description?: string };
 
@@ -30,11 +30,8 @@ export const Base: React.FC<BaseProps> = ({ children, description, title }) => {
           sizes="192x192"
           href="/static/icons/rare-icon-192.png"
         />
-        <meta name="theme-color" content="#181113" />
-        <link
-          href="https://fonts.googleapis.com/css?family=Nunito+Sans:800|Montserrat:400,500&display=swap"
-          rel="stylesheet"
-        />
+        <meta name="theme-color" content="#6F4040 " />  
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"></link>
         <link rel="manifest" href="/manifest.json" />
 
         <meta name="title" content={title || TITLE} />
@@ -90,7 +87,7 @@ export const Base: React.FC<BaseProps> = ({ children, description, title }) => {
 
           h1,
           h2 {
-            font-family: 'Nunito Sans', sans-serif;
+            font-family: 'Barlow', sans-serif;
             font-weight: 800;
           }
 

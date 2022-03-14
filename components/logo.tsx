@@ -12,8 +12,8 @@ export const Logo: React.FC<{ secondary?: boolean }> = ({ secondary }) => {
         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a className="logo">
           <img
-            src="../static/logo.png"
-            alt="Rare"
+            src="../static/RPLOGOPUNAMUSTA.png"
+            alt="RP-Solutions"
             className={
               secondary ? 'logo__image logo__image--secondary' : 'logo__image'
             }
@@ -28,7 +28,7 @@ export const Logo: React.FC<{ secondary?: boolean }> = ({ secondary }) => {
 
         .logo__image {
           cursor: pointer;
-          width: 72px;
+          width: 200px;
           vertical-align: bottom; // To align with navigation text
         }
 
