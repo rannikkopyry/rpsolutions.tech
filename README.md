@@ -1,4 +1,4 @@
-# rare.fi
+# rpsolutions.tech
 
 # Installation
 
