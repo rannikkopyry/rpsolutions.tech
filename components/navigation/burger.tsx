@@ -39,7 +39,7 @@ export const BurgerMenu: React.FC<BurgerMenuProps> = ({
         aria-expanded={open}
         aria-controls="menu"
       >
-        Menu
+        Valikko
       </button>
 
       <Center className={open ? 'burger-wrapper is-active' : 'burger-wrapper'}>
@@ -153,10 +153,9 @@ export const BurgerMenu: React.FC<BurgerMenuProps> = ({
 
         #menu a {
           color: #fff;
-          background-color: #D0A699;
+          background-color: #d0a699;
           font-size: 1.7rem;
           text-decoration: none;
-          
         }
 
         #menu li {
@@ -169,7 +168,6 @@ export const BurgerMenu: React.FC<BurgerMenuProps> = ({
         .logo {
           padding: 0.5rem;
           width: 72px;
-          filter: invert(1);
         }
       `}</style>
     </nav>

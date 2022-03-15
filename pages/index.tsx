@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Layout>
-        <div>
+        <div id='palvelumme'>
           <AboutSection>
             <h2>
               Palvelumme
@@ -69,7 +69,7 @@ const Home = () => {
         <WorkspaceSection />
 
 
-        <div>
+        <div id="toimintatapamme">
           <AboutSection>
             <h2>Toimintatapamme</h2>
             <p>

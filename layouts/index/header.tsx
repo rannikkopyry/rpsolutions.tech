@@ -1,6 +1,5 @@
-import { Button } from '../../components/button';
 import { Center } from '../../components/center';
-import { ColorLines } from '../../components/color-lines';
+import { SvgTausta } from '../../components/svg-tausta';
 import { Nav } from '../../components/navigation/nav';
 import React from 'react';
 
@@ -10,7 +9,7 @@ export const Header: React.FC = () => (
 
     <Center className="hero__wrapper">
       <section className="hero__content">
-        <ColorLines />
+        <SvgTausta />
         <article className="hero__article">
           <h1 className="title">
             Kainuulaista <br />
@@ -188,32 +187,10 @@ export const Header: React.FC = () => (
         }
       }
 
-      @media (max-width: 800px) {
-        .plan {
-          width: 100px;
-          margin-bottom: 0.8rem;
-        }
-        .tieto {
-          width: 120px;
-        }
-        .veracell {
-          width: 97px;
-          margin-bottom: 1.2rem;
-        }
-        .sharper {
-          width: 170px;
-        }
-        .simucube {
-          width: 150px;
-        }
-        .cult {
-          width: 80px;
-        }
-      }
-
       @media (max-width: 450px) {
         .title {
-          font-size: 2rem;
+          font-size: 1.8rem;
+          max-width: 200px;
         }
 
         .hero__article {

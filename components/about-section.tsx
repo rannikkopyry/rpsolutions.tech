@@ -9,7 +9,7 @@ export const AboutSection: React.FC<Props> = ({
   reverse = false
 }) => (
   <>
-    <section className="section">
+    <section className="section" >
       <Center>
         <div className="container">
           {image && (

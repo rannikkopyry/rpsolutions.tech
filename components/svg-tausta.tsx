@@ -1,8 +1,8 @@
 import React from 'react';
 import { useVivusRef } from '../hooks/useVivus';
 
-export function ColorLines() {
-  const colorlines = useVivusRef();
+export function SvgTausta() {
+  const svgtausta = useVivusRef();
 
   return (
     <svg
@@ -12,7 +12,7 @@ export function ColorLines() {
       viewBox="0 0 200 200"
       preserveAspectRatio="xMinYMin slice"
       id="colorlines"
-      ref={colorlines}
+      ref={svgtausta}
       style={{ visibility: 'hidden' }}
       aria-hidden={true}
     >

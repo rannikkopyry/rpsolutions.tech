@@ -4,7 +4,7 @@ export const GoogleTagManager = () => (
   <>
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-153430933-1"
+      src="https://www.googletagmanager.com/gtag/js?id=G-LSX79V4J81"
     ></script>
     <script
       dangerouslySetInnerHTML={{
@@ -12,7 +12,7 @@ export const GoogleTagManager = () => (
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-gtag('config', 'UA-153430933-1');`
+gtag('config', 'G-LSX79V4J81');`
       }}
     />
   </>

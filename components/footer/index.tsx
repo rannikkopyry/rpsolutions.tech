@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SVG from 'react-inlinesvg';
 import { Center } from '../center';
-import { Github } from './icons/github';
-import { Linkedin } from './icons/linkedin';
-import { Twitter } from './icons/twitter';
 
 
 export const Footer: React.FC = () => {
@@ -12,20 +9,25 @@ export const Footer: React.FC = () => {
       <Center className="interested">
         <h3>Kiinnostuitko?</h3>
         <p>
-        Jos sinulla on kysyttävää tai olet kiinnostunut palveluistamme, ota rohkeasti yhteyttä.
+          Jos sinulla on kysyttävää tai olet kiinnostunut palveluistamme, ota
+          rohkeasti yhteyttä!
         </p>
       </Center>
       <Center className="contacts">
         <div className="company-info">
           <address className="location">
-            <div>88610&nbsp;Vuokatti</div>
-            <div>Finland</div>
-            <br />
-
             <div>RP-Solutions Oy</div>
-            <div>3092335-9</div>
+            <div>3229018-8</div>
             <div>+358&nbsp;45&nbsp;268&nbsp;4828</div>
             <div>pyry.rannikko1@gmail.com</div>
+            <br />
+
+            <div>88610&nbsp;Vuokatti</div>
+            <div>Finland</div>
+
+            <br />
+
+            <div><p>© 2022 - Kaikki oikeudet pidätetään </p></div>
           </address>
         </div>
       </Center>
@@ -57,7 +59,7 @@ export const Footer: React.FC = () => {
         .footer {
           background: linear-gradient(
             95.62deg,
-            #D0A699 40.28%,
+            #d0a699 40.28%,
             hsla(210, 100%, 3%, 1) 99.06%
           );
           padding: 3rem 0;

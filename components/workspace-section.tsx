@@ -1,7 +1,6 @@
 import React from 'react';
 import { Center } from './center';
 import Link from 'next/link';
-import { Button } from './button';
 
 export const WorkspaceSection: React.FC = () => (
   <>
@@ -9,24 +8,21 @@ export const WorkspaceSection: React.FC = () => (
       <Center className="vertical-center">
         <article className="section__article">
           <h2>
-            Kehittäjä,
-            <br /> suunnitteleeko tiimisi uutta webbiprojektia?
+            Moi
+            <br />
           </h2>
           <p>
-            React ja ekosysteemi sen ympärillä kehittyy hurjaa vauhtia. Mitkä
-            työkalut ovat relevantteja nyt ja kahden vuoden kuluttua? Millä
-            kattauksella maaliin päästään varmasti?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+            quos eligendi dignissimos fugit ad hic, eum dicta nisi, quis rerum
+            porro doloremque, harum itaque iusto sit vel in sint consequuntur!
           </p>
 
           <p>
-            Vältä yleisimmät sudenkuopat ja ota meidät mukaan
-            suunnitteluvaiheeseen.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            reprehenderit quibusdam distinctio a obcaecati vero molestiae natus
+            excepturi, magni id provident dolore alias? Neque, impedit maxime! A
+            tempore repellat quo!
           </p>
-
-          <Link href="/training">
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <Button>Lue lisää</Button>
-          </Link>
         </article>
         <aside className="workspace"></aside>
       </Center>

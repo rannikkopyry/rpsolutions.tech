@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 /**
- * Rare Agency Oy logo which links to front page
+ * RP-Solutions Oy logo which links to front page
  * @param secondary If true, logo colors will be inverted
  */
 export const Logo: React.FC<{ secondary?: boolean }> = ({ secondary }) => {
@@ -30,10 +30,6 @@ export const Logo: React.FC<{ secondary?: boolean }> = ({ secondary }) => {
           cursor: pointer;
           width: 200px;
           vertical-align: bottom; // To align with navigation text
-        }
-
-        .logo__image--secondary {
-          filter: invert(1);
         }
       `}</style>
     </>

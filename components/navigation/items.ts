@@ -4,16 +4,28 @@ export const items = [
     text: 'Yritys'
   },
   {
-    url: '/training',
-    text: 'Palvelut'
+    url: '#palvelumme',
+    text: 'Palvelut',
+    onClick: (event?: React.MouseEvent) => {
+      const palvelumme = document.getElementById('palvelumme');
+
+      if (palvelumme && event) {
+        event.preventDefault();
+        palvelumme.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   },
   {
-    url: '/careers',
-    text: 'Toimintatapamme'
-  },
-  {
-    url: '/blog',
-    text: 'Blogi'
+    url: '#toimintatapamme',
+    text: 'Toimintatapamme',
+    onClick: (event?: React.MouseEvent) => {
+      const toimintatapamme = document.getElementById('toimintatapamme');
+
+      if (toimintatapamme && event) {
+        event.preventDefault();
+        toimintatapamme.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   },
   {
     text: 'Ota yhteyttä',
