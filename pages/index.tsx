@@ -58,7 +58,7 @@ const Home = () => {
             <h3>API-ratkaisut</h3>
             <p>
               Suurien datamäärien liikuttelemiseksi ohjelmistojen välillä
-              tarvitaan rajapintoja. Api:t ovat myös avainasemassa skaalautuvien
+              tarvitaan rajapintoja. API:t ovat myös avainasemassa skaalautuvien
               ja ketterien ohjelmistoprojektien sisällä. Meiltä kaikki palvelut
               konsultoinnista API-ratkaisujen suunnitteluun ja asiakaskohtaiseen
               räätälöintiin. "Kommunikaatio ihmisten välillä on tärkeää, mutta
@@ -94,11 +94,15 @@ const Home = () => {
               skaalautuvia tuotteita, käytämme aina edistyneimpiä teknologioita
               ja työkaluja.
             </p>
-            <h3>Näistä esimerkkeinä mm.</h3>
-            <p>- TypeScipt & JavaScript</p>
-            <p>- React & React Native</p>
-            <p>- Node.js, Express.js, GraphQL, PostgreSQL & MongoDB</p>
-            <p>- Netlify & AWS</p>
+            <br />
+            <h4>Näistä esimerkkeinä mm.</h4>
+            <br />
+            <div className='examples'>
+            <div>- TypeScipt & JavaScript</div>
+            <div>- React & React Native</div>
+            <div>- Node.js, Express.js, GraphQL, PostgreSQL & MongoDB</div>
+            <div>- Netlify & AWS</div>
+            </div>
           </AboutSection>
         </div>
       </Layout>

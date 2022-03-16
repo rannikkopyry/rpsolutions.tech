@@ -1,6 +1,5 @@
 import React from 'react';
 import { Center } from './center';
-import Link from 'next/link';
 
 export const WorkspaceSection: React.FC = () => (
   <>
@@ -8,20 +7,18 @@ export const WorkspaceSection: React.FC = () => (
       <Center className="vertical-center">
         <article className="section__article">
           <h2>
-            Moi
+            Miksi panostaisit yrityksesi näkyvyyteen ja <br /> toimiviin palveluihin verkossa?
             <br />
           </h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            quos eligendi dignissimos fugit ad hic, eum dicta nisi, quis rerum
-            porro doloremque, harum itaque iusto sit vel in sint consequuntur!
-          </p>
+            Kuvitellaan tilanne, jossa sinun yritykselläsi on verkkosivu vuodelta 2001 ja kilpailijalla on upouusi hakukoneoptimoitu sivusto sisällönhallintajärjestelmällä sekä verkkokaupalla.
 
+          </p>
+          <h4>Onko todennäkösitä, että asiakas valitsee sinun palvelun tai tuotteen kilpailijan sijaan?</h4>
+          <h3>Ei ole</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            reprehenderit quibusdam distinctio a obcaecati vero molestiae natus
-            excepturi, magni id provident dolore alias? Neque, impedit maxime! A
-            tempore repellat quo!
+          Eletään vuotta 2022 ja maailma on digitaalisempi kuin koskaan. Ihmisillä vauvasta vaariin löytyy mobiililaitteita, tietokoneita ja tabletteja.
+          Etätyö, etäopiskelu ja ostosten teko etänä ajavat ihmisiä yhä enemmän verkkopalveluiden käyttäjiksi. Verkossa on mahdollisuudet ja niitä ei ole järkevää jättää käyttämättä. Panosta siis yrityksesi näkyvyyteen internetissä nyt!
           </p>
         </article>
         <aside className="workspace"></aside>
