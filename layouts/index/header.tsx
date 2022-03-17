@@ -21,8 +21,10 @@ export const Header: React.FC = () => (
             Autamme yrityksesi liiketoiminnan kehittämisessä tuottamalla
             laadukkaita ja persoonallisia verkkopalveluita. Toteutamme
             frontend-, backend- sekä API-kehitystä. Myös nykyaikaisten
-            pilvipalveluiden intregrointi sovelluksiin onnistuu mieltä.
-           Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
+            pilvipalveluiden intregrointi sovelluksiin onnistuu mieltä. <br />
+            <span className="gray">
+              Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
+            </span>
           </p>
         </article>
       </section>
@@ -34,7 +36,7 @@ export const Header: React.FC = () => (
         flex-direction: column;
         background: linear-gradient(
           95.62deg,
-          #D0A699 40.28%,
+          #d0a699 40.28%,
           hsla(210, 100%, 3%, 1) 99.06%
         );
         color: #00000;
@@ -43,6 +45,11 @@ export const Header: React.FC = () => (
         box-sizing: border-box;
         position: relative;
         overflow: hidden; // For colorlines
+      }
+
+      .gray {
+        color: #666;
+        font-size: 1.4rem;
       }
 
       // To stay on top of colorlines

@@ -14,11 +14,11 @@ export const WorkspaceSection: React.FC = () => (
             Kuvitellaan tilanne, jossa sinun yritykselläsi on verkkosivu vuodelta 2001 ja kilpailijalla on upouusi hakukoneoptimoitu sivusto sisällönhallintajärjestelmällä sekä verkkokaupalla.
 
           </p>
-          <h4>Onko todennäkösitä, että asiakas valitsee sinun palvelun tai tuotteen kilpailijan sijaan?</h4>
-          <h3>Ei ole</h3>
+          <h4>Onko todennäköistä, että asiakas valitsee sinun palvelusi tai tuotteesi kilpailijan sijaan?</h4>
+          <h3>Se on mahdollista, muttei todennäköistä.</h3>
           <p>
           Eletään vuotta 2022 ja maailma on digitaalisempi kuin koskaan. Ihmisillä vauvasta vaariin löytyy mobiililaitteita, tietokoneita ja tabletteja.
-          Etätyö, etäopiskelu ja ostosten teko etänä ajavat ihmisiä yhä enemmän verkkopalveluiden käyttäjiksi. Verkossa on mahdollisuudet ja niitä ei ole järkevää jättää käyttämättä. Panosta siis yrityksesi näkyvyyteen internetissä nyt!
+          Etätyö, etäopiskelu ja ostosten teko etänä ajavat ihmisiä yhä enemmän verkkopalveluiden käyttäjiksi. Verkossa on mahdollisuudet ja niitä ei ole järkevää jättää käyttämättä. Panosta siis yrityksesi näkyvyyteen internetissä heti tänään ja tee vaikutus asiakkaisiisi!
           </p>
         </article>
         <aside className="workspace"></aside>
