@@ -31,7 +31,6 @@ export const Base: React.FC<BaseProps> = ({ children, description, title }) => {
           href="/static/icons/rare-icon-192.png"
         />
         <meta name="theme-color" content="#6F4040 " />  
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"></link>
         <link rel="manifest" href="/manifest.json" />
 
         <meta name="title" content={title || TITLE} />
