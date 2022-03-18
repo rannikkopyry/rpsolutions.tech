@@ -27,6 +27,7 @@
     "vivus": "^0.4.5"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.2.7",
     "@typescript-eslint/eslint-plugin": "^2.6.0",
     "@typescript-eslint/parser": "^2.6.0",
     "eslint": "^6.6.0",
