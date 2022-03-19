@@ -5,7 +5,7 @@ import { WithRouterProps } from 'next/dist/client/with-router';
 
 type ActiveLinkProps = {
   href: string;
-  activeClassName: string;
+  activeClassName?: string;
 } & WithRouterProps;
 
 export const ActiveLink = withRouter<ActiveLinkProps>(

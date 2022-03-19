@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="footer" id="contact">
       <Center className="interested">
-        <h3>Kiinnostuitko?</h3>
+        <h2>Kiinnostuitko?</h2>
         <p>
           Jos sinulla on kysyttävää tai olet kiinnostunut palveluistamme, ota
           rohkeasti yhteyttä!
@@ -16,20 +16,28 @@ export const Footer: React.FC = () => {
       <Center className="contacts">
         <div className="company-info">
           <address className="location">
-            <div>RP-Solutions Oy</div>
+            <h3>RP-Solutions Oy</h3>
             <div>3229018-8</div>
             <div>+358&nbsp;45&nbsp;268&nbsp;4828</div>
             <div>pyry.rannikko1@gmail.com</div>
-            <br />
-
             <div>88610&nbsp;Vuokatti</div>
             <div>Finland</div>
 
             <br />
 
-            <div><p>© 2022 - Kaikki oikeudet pidätetään </p></div>
           </address>
+          <div className="company-invoicing">
+            <address>
+            <h3>Verkkolaskutus</h3>
+            <div>Verkkolaskuosoite: 003732290188</div>
+            <div>Operaattori: Apix Messaging Oy</div>
+            <div>Operaattoritunnus: 003723327487</div>
+            </address>
+            <br />
+          </div>
+          <div className="copyright"><p>© 2022 - Kaikki oikeudet pidätetään </p></div>
         </div>
+  
       </Center>
 
       <style jsx>{`
@@ -50,12 +58,6 @@ export const Footer: React.FC = () => {
 
           grid-gap: 2rem;
         }
-
-        .logo {
-          width: 150px;
-          filter: invert(1);
-          margin-bottom: 2rem;
-        }
         .footer {
           background: linear-gradient(
             95.62deg,
@@ -65,10 +67,13 @@ export const Footer: React.FC = () => {
           padding: 3rem 0;
           color: #00000;
         }
+        .copyright{
+          align-items: center;
+          text-align: center;
+        }
 
         .company-info {
-          margin-right: 2em;
-          text-align: center;
+          text-align: center
         }
 
         address {
