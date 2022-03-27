@@ -21,7 +21,7 @@ export const Header: React.FC = () => (
             Autamme yrityksesi liiketoiminnan kehittämisessä tuottamalla
             laadukkaita ja persoonallisia verkkopalveluita. Toteutamme
             frontend-, backend- sekä API-kehitystä. Myös nykyaikaisten
-            pilvipalveluiden intregrointi sovelluksiin onnistuu mieltä. <br />
+            pilvipalveluiden intregrointi sovelluksiin onnistuu meiltä. <br />
             <span className="gray">
               Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
             </span>
@@ -52,7 +52,7 @@ export const Header: React.FC = () => (
         font-size: 1.4rem;
       }
 
-      // To stay on top of colorlines
+      // To stay on top of the svg
       .title,
       .description,
       section {
@@ -95,77 +95,7 @@ export const Header: React.FC = () => (
         font-size: 1.2rem;
         width: 75%;
       }
-
-      .references h3 {
-        font-size: 18px;
-        letter-spacing: 0.07rem;
-      }
-      .references {
-        margin-bottom: -1rem;
-        padding-bottom: 1em;
-      }
-
-      .references__images {
-        display: flex;
-        align-items: flex-end;
-        flex-wrap: wrap;
-      }
-
-      .references a:hover .logo {
-        opacity: 1;
-      }
-
-      .logo {
-        margin-bottom: 1rem;
-        margin-right: 1.6rem;
-        opacity: 0.8;
-        cursor: pointer;
-        transition: opacity 0.2s;
-      }
-
-      .cult {
-        width: 90px;
-        filter: invert(1);
-        margin-bottom: 1.3rem;
-      }
-
-      .linnunrata {
-        width: 160px;
-        filter: invert(1);
-        margin-bottom: 1.25rem;
-      }
-
-      .instagrid {
-        width: 170px;
-        margin-bottom: 0.9rem;
-        filter: invert(1);
-      }
-
-      .plan {
-        margin-bottom: 1rem;
-        margin-right: 1.75rem;
-      }
-
-      .sharper {
-        width: 200px;
-        margin-bottom: 1.4rem;
-      }
-
-      .tieto {
-        width: 145px;
-        margin-bottom: 0.75rem;
-      }
-
-      .veracell {
-        margin-bottom: 1.35rem;
-      }
-
-      .simucube {
-        width: 190px;
-        filter: invert(1);
-        margin-bottom: 1.3rem;
-      }
-
+      
       @media (max-width: 1330px) {
         .description {
           width: 40%;
@@ -208,15 +138,8 @@ export const Header: React.FC = () => (
         .description {
           font-size: 1rem;
           width: auto;
-        }
-
-        .references h3 {
-          text-align: center;
-        }
-
-        .references__images {
-          justify-content: center;
-          align-items: center;
+          opacity: 1.1;
+          color: white;
         }
       }
     `}</style>

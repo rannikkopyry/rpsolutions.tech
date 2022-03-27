@@ -5,7 +5,7 @@ export const items = [
   },
   {
     url: '#palvelumme',
-    text: 'Palvelut',
+    text: 'Palvelumme',
     onClick: (event?: React.MouseEvent) => {
       const palvelumme = document.getElementById('palvelumme');
 

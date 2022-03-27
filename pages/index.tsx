@@ -81,7 +81,7 @@ const Home = () => {
               Ketterät ohjelmistoprojektit jaetaan eri pituisiin "sprintteihin".
               Sprintit voivat olla eripituisia ja sisällöltään hyvin erilaisia,
               mutta olennaisinta on niiden aikana ja välissä tapahtuma viestintä
-              asiakkaan ja devaajan välillä. Kun on selvillä tarpeet ja
+              asiakkaan ja kehittäjän välillä. Kun on selvillä tarpeet ja
               mahdollisuudet, on helppo toteuttaa näyttävä lopputulos.
               Ohjelmistoprojektit alkavat aina huolellisella suunittelulla ja
               asiakkaan kanssa yhdessä kartoitetaan vaatimukset ja toiveet.
