@@ -28,7 +28,7 @@ const Home = () => {
             <p>
               Tuotamme juuri sinun tai yrityksesi tarpeisiin soveltuvat
               ohjelmistot suunnittelusta käyttöönottoon saakka. Oli kyseessä
-              sitten täysin uusin sovellus tai vanhan muokkaus ja ehostus,
+              sitten täysin uusi sovellus tai vanhan muokkaus ja ehostus,
               kauttamme työ hoituu kätevästi. Voit olla varma että sovelluksesi
               on käyttäjäystävällinen, tietoturvallinen sekä tietenkin
               persoonallinen. Hyödynnämme töissä edistyneimpiä teknologioita
