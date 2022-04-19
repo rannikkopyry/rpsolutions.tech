@@ -52,7 +52,7 @@ const Home = () => {
               sovelluksella yrityksen kilpailukyky digitalisaation vallitessa
               paranee. Pääset myös itse mukaan kehitystyöhön, jolloin tuotteesta
               saadaan asiakkaan näköinen. Mukaudumme projektikohtaisesti ja
-              valitsemme sovellukseesi sopivat teknlogiat. Jos kaipaat
+              valitsemme sovellukseesi sopivat teknologiat. Jos kaipaat
               lisätietoja ota rohkeasti yhteyttä, tyhmiä kysymyksiä ei ole!
             </p>
             <h3>API-ratkaisut</h3>
@@ -83,7 +83,7 @@ const Home = () => {
               mutta olennaisinta on niiden aikana ja välissä tapahtuma viestintä
               asiakkaan ja kehittäjän välillä. Kun on selvillä tarpeet ja
               mahdollisuudet, on helppo toteuttaa näyttävä lopputulos.
-              Ohjelmistoprojektit alkavat aina huolellisella suunittelulla ja
+              Ohjelmistoprojektit alkavat aina huolellisella suunnittelulla ja
               asiakkaan kanssa yhdessä kartoitetaan vaatimukset ja toiveet.
             </p>
             <h3>Teknologiat</h3>

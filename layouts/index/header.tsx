@@ -21,7 +21,7 @@ export const Header: React.FC = () => (
             Autamme yrityksesi liiketoiminnan kehittämisessä tuottamalla
             laadukkaita ja persoonallisia verkkopalveluita. Toteutamme
             frontend-, backend- sekä API-kehitystä. Myös nykyaikaisten
-            pilvipalveluiden intregrointi sovelluksiin onnistuu meiltä. <br />
+            pilvipalveluiden integrointi sovelluksiin onnistuu meiltä. <br />
             <span className="gray">
               Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
             </span>
