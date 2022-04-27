@@ -48,8 +48,8 @@ export const Header: React.FC = () => (
       }
 
       .gray {
-        color: #666;
-        font-size: 1.4rem;
+        color: #00000;
+        font-size: 1.5rem;
       }
 
       // To stay on top of the svg
@@ -95,7 +95,7 @@ export const Header: React.FC = () => (
         font-size: 1.2rem;
         width: 75%;
       }
-      
+
       @media (max-width: 1330px) {
         .description {
           width: 40%;
@@ -126,7 +126,7 @@ export const Header: React.FC = () => (
 
       @media (max-width: 450px) {
         .title {
-          font-size: 1.8rem;
+          font-size: 2.1rem;
           max-width: 200px;
         }
 
@@ -136,10 +136,14 @@ export const Header: React.FC = () => (
         }
 
         .description {
-          font-size: 1rem;
+          font-size: 1.2rem;
+          font-weight: bold;
           width: auto;
-          opacity: 1.1;
-          color: white;
+          opacity: 1;
+          color: #ffff;
+        }
+        .gray {
+          color: ;
         }
       }
     `}</style>

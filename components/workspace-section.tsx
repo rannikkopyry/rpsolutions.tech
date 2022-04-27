@@ -18,7 +18,7 @@ export const WorkspaceSection: React.FC = () => (
           <h3>Se on mahdollista, muttei todennäköistä.</h3>
           <p>
           Eletään vuotta 2022 ja maailma on digitaalisempi kuin koskaan. Ihmisillä vauvasta vaariin löytyy mobiililaitteita, tietokoneita ja tabletteja.
-          Etätyö, etäopiskelu ja ostosten teko etänä ajavat ihmisiä yhä enemmän verkkopalveluiden käyttäjiksi. Verkossa on mahdollisuudet ja niitä ei ole järkevää jättää käyttämättä. Panosta siis yrityksesi näkyvyyteen internetissä heti tänään ja tee vaikutus asiakkaisiisi!
+          Etätyö, etäopiskelu ja ostosten teko etänä ajavat ihmisiä yhä enemmän verkkopalveluiden käyttäjiksi. Verkossa on tulevaisuus eikä sitä ole järkevää jättää käyttämättä. Panosta siis yrityksesi näkyvyyteen internetissä heti tänään ja tee vaikutus asiakkaisiisi!
           </p>
         </article>
         <aside className="workspace"></aside>

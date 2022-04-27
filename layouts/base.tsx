@@ -5,7 +5,7 @@ import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
 
 const DESCRIPTION =
-  'Meiltä verkkosivut, -kaupat, mobiilisovellukset, API:t ja paljon muuta.';
+  'Meiltä verkkosivut, verkkokaupat, mobiilisovellukset, API:t ja paljon muuta.';
 const TITLE = 'RP-Solutions Oy - Kainuulaista ohjelmistokehitystä';
 
 export type BaseProps = { title?: string; description?: string };
@@ -39,13 +39,13 @@ export const Base: React.FC<BaseProps> = ({ children, description, title }) => {
         {publicRuntimeConfig.NODE_ENV !== 'development' && <GoogleTagManager />}
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rare.fi" />
+        <meta property="og:url" content="https://rpsolutions.fi" />
         <meta property="og:title" content={title || TITLE} />
         <meta property="og:description" content={description || DESCRIPTION} />
-        <meta property="og:image" content="https://rare.fi/static/meta.png" />
+        <meta property="og:image" content="https://rpsolutions.fi/static/rplogocenter.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://rare.fi" />
+        <meta property="twitter:url" content="https://rpsolutions.fi" />
         <meta property="twitter:title" content={title || TITLE} />
         <meta
           property="twitter:description"
@@ -53,7 +53,7 @@ export const Base: React.FC<BaseProps> = ({ children, description, title }) => {
         />
         <meta
           property="twitter:image"
-          content="https://rare.fi/static/meta.png"
+          content="https://rpsolutions.fi/static/rplogocenter.png"
         />
       </Head>
 
