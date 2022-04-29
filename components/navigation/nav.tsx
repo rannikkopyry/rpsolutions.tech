@@ -36,7 +36,7 @@ export const Nav = () => (
         nav {
           display: flex;
           align-items: center;
-          margin-top: 3rem;
+          margin-top: 1.5rem;
           font-size: 16px;
           font-weight: 500;
           // To stay on top of colorlines
