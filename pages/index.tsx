@@ -96,10 +96,10 @@ const Home = () => {
             <h4>Näistä esimerkkeinä mm.</h4>
             <br />
             <div className="examples">
-              <div>- TypeScipt & React</div>
-              <div>- React Native</div>
-              <div>- Node, Express, GraphQL, PostgreSQL & MongoDB</div>
-              <div>- AWS & Google Cloud Platform</div>
+              <div>- TypeScipt & React </div>
+              <div>- React Native </div>
+              <div>- Node, Express, GraphQL, PostgreSQL & MongoDB </div>
+              <div>- AWS, Google Cloud Platform sekä Microsoft Azure </div>
             </div>
           </AboutSection>
         </div>

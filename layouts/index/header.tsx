@@ -19,11 +19,9 @@ export const Header: React.FC = () => (
             nuorekkaalla otteella.
           </h1>
           <p className="description">
-            Olemme Kainuulainen ohjelmistokehitykseen erikoistunut yritys.
-            Autamme yrityksesi liiketoiminnan kehittämisessä tuottamalla
-            laadukkaita ja persoonallisia verkkopalveluita. Toteutamme
-            frontend-, backend- sekä API-kehitystä. Myös nykyaikaisten
-            pilvipalveluiden integrointi sovelluksiin onnistuu meiltä. <br />
+            Tuotamme softaa hyödyntäen tämän hetken kuumimpia teknologioita.
+            Autamme kaikenkokoisia yrityksiä joustavasti sijainnista ja
+            toimialasta riippumatta. <br />
             <span className="gray">
               Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
             </span>
