@@ -1,12 +1,10 @@
 import { Center } from '../../components/center';
 import { SvgTausta } from '../../components/svg-tausta';
 import { Nav } from '../../components/navigation/nav';
-import { UkraineBar } from '../../components/navigation/UkraineBar';
 import React from 'react';
 
 export const Header: React.FC = () => (
   <header className="hero">
-    <UkraineBar />
     <Nav />
 
     <Center className="hero__wrapper">
