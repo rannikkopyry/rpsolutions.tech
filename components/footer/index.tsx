@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import SVG from 'react-inlinesvg';
 import { Center } from '../center';
 
-
 export const Footer: React.FC = () => {
   return (
     <footer className="footer" id="contact">
@@ -24,20 +23,27 @@ export const Footer: React.FC = () => {
             <div>Finland</div>
 
             <br />
-
           </address>
           <div className="company-invoicing">
             <address>
-            <h3>Verkkolaskutus</h3>
-            <div>Verkkolaskuosoite: 003732290188</div>
-            <div>Operaattori: Apix Messaging Oy</div>
-            <div>Operaattoritunnus: 003723327487</div>
+              <h3>Verkkolaskutus</h3>
+              <div>Verkkolaskuosoite: 003732290188</div>
+              <div>Operaattori: Apix Messaging Oy</div>
+              <div>Operaattoritunnus: 003723327487</div>
             </address>
             <br />
+            <a href='https://koodiasuomesta.fi/' className="logo">
+              <img
+              height={250}
+                src="../static/koodiasuomesta_white.png"
+                alt="RP-Solutions"
+              />
+            </a>
           </div>
-          <div className="copyright"><p>© 2022 - Kaikki oikeudet pidätetään </p></div>
+          <div className="copyright">
+            <p>© 2022 - Kaikki oikeudet pidätetään </p>
+          </div>
         </div>
-  
       </Center>
 
       <style jsx>{`
@@ -67,13 +73,13 @@ export const Footer: React.FC = () => {
           padding: 3rem 0;
           color: #00000;
         }
-        .copyright{
+        .copyright {
           align-items: center;
           text-align: center;
         }
 
         .company-info {
-          text-align: center
+          text-align: center;
         }
 
         address {
