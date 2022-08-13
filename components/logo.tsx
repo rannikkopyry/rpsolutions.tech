@@ -12,7 +12,7 @@ export const Logo: React.FC<{ secondary?: boolean }> = ({ secondary }) => {
         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a className="logo">
           <img
-            src="../static/RPLOGOPUNAMUSTA.png"
+            src="../static/RPLOGOKESKITETTY.png"
             alt="RP-Solutions"
             className={
               secondary ? 'logo__image logo__image--secondary' : 'logo__image'
