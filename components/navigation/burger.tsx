@@ -96,7 +96,7 @@ export const BurgerMenu: React.FC<BurgerMenuProps> = ({
 
         .toggle.open {
           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0z' fill='none' /%3E%3Cpath d='M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z' fill='%23fff'/%3E%3C/svg%3E");
-          color: #fff;
+          color: #000;
           z-index: 3;
         }
 
@@ -114,7 +114,7 @@ export const BurgerMenu: React.FC<BurgerMenuProps> = ({
           visibility: hidden;
           display: flex;
           position: relative;
-          background-color: #fff;
+          background-color: #000;
           background-image: url('/static/color-lines.svg');
           background-size: cover;
         }
@@ -152,10 +152,12 @@ export const BurgerMenu: React.FC<BurgerMenuProps> = ({
         }
 
         #menu a {
-          color: #fff;
+          color: #000;
           background-color: #d0a699;
           font-size: 1.7rem;
           text-decoration: none;
+          padding: 6px;
+          border: 2px solid black; 
         }
 
         #menu li {
