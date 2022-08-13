@@ -20,6 +20,8 @@ export const Header: React.FC = () => (
             Tuotamme softaa hyödyntäen tämän hetken kuumimpia teknologioita.
             Autamme kaikenkokoisia yrityksiä joustavasti sijainnista ja
             toimialasta riippumatta. <br />
+          </p>
+          <p className="ending">
             <span className="gray">
               Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
             </span>
@@ -138,10 +140,10 @@ export const Header: React.FC = () => (
           font-weight: bold;
           width: auto;
           opacity: 1;
-          color: #ffff;
+          color: #000;
         }
-        .gray {
-          color: ;
+        .ending {
+          color: #000;
         }
       }
     `}</style>
