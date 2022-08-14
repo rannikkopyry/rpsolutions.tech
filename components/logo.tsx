@@ -28,7 +28,7 @@ export const Logo: React.FC<{ secondary?: boolean }> = ({ secondary }) => {
 
         .logo__image {
           cursor: pointer;
-          width: 200px;
+          width: 180px;
           vertical-align: bottom; // To align with navigation text
         }
       `}</style>

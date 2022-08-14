@@ -81,9 +81,9 @@ export const BurgerMenu: React.FC<BurgerMenuProps> = ({
         }
 
         .toggle {
-          position: absolute;
+          position: relative;
+          margin-left: 15px;
           right: 0;
-          top: 0;
           border: 0;
           height: auto;
           padding-right: calc(32px);

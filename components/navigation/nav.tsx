@@ -8,9 +8,7 @@ import { ActiveLink } from '../active-link';
 export const Nav = () => (
   <Center className="nav">
     <nav>
-      <div className="logo">
-        <Logo />
-      </div>
+      <Logo />
 
       <div className="nav__links">
         {items.map(item =>
@@ -99,7 +97,9 @@ export const Nav = () => (
           }
 
           nav {
-           margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
           }
         }
       `}</style>
