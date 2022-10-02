@@ -22,9 +22,9 @@ export const Header: React.FC = () => (
             toimialasta riippumatta. <br />
           </p>
           <p className="ending">
-            <span className="gray">
+            {/* <span className="gray">
               Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
-            </span>
+            </span> */}
           </p>
         </article>
       </section>

@@ -65,6 +65,19 @@ const Home = () => {
               ohjelmistojen välillä tärkeämpää. "
             </p>
           </AboutSection>
+          <div>
+          <AboutSection>
+            <h2>
+              Eikö etsimäsi löytynyt edellä mainituista?
+              <br />
+            </h2>
+
+            <p>
+              Jokaisella yrityksellä on erityiset tarpeensa ja me mukaudumme projektikohtaisesti asiakkaan mukaan. Vaikka tarpeenne olisi jotain muuta kuin edellisessä listassa, ota rohkeasti yhteyttä ja keskustellaan enemmän.
+              
+            </p>
+          </AboutSection>
+          </div>
         </div>
         <WorkspaceSection />
 
