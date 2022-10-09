@@ -1,9 +1,9 @@
 import React from 'react'
 
-function leasing-update() {
+function LeasingUpdate() {
   return (
-    <div>leasing-update</div>
+    <div>L</div>
   )
 }
 
-export default leasing-update
+export default LeasingUpdate
