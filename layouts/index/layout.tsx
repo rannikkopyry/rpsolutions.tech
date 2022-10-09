@@ -5,7 +5,6 @@ import { Header } from './header';
 import { Footer } from '../../components/footer';
 
 export const Layout: React.FC = ({ children }) => {
-
   return (
     <Base>
       <Header />
