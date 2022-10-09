@@ -38,5 +38,17 @@ export const items = [
         contact.scrollIntoView({ behavior: 'smooth' });
       }
     }
+  },
+  {
+    text: 'Leasing',
+    url: '/leasing',
+    onClick: (event?: React.MouseEvent) => {
+      const contact = document.getElementById('leasing');
+
+      if (contact && event) {
+        event.preventDefault();
+        contact.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   }
 ];

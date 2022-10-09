@@ -6,7 +6,6 @@ import React from 'react';
 export const Header: React.FC = () => (
   <header className="hero">
     <Nav />
-
     <Center className="hero__wrapper">
       <section className="hero__content">
         <SvgTausta />
