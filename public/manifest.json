@@ -1,20 +1,15 @@
 {
-  "name": "Rare",
-  "short_name": "Rare",
+  "name": "RP-Solutions Oy",
+  "short_name": "RP-Solutions Oy",
   "theme_color": "#181113",
   "background_color": "#000000",
   "display": "browser",
   "start_url": "/",
   "icons": [
     {
-      "src": "/static/icons/rare-icon-192.png",
-      "type": "image/png",
+      "src": "/favicon.ico",
+      "type": "image/x-icon",
       "sizes": "192x192"
-    },
-    {
-      "src": "/static/icons/rare-icon-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ]
 }
