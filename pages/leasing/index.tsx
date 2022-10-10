@@ -2,17 +2,40 @@ import React from 'react';
 import { Center } from '../../components/center';
 import { Base } from '../../layouts/base';
 
- const index = () => (
+const index = () => (
   <>
     <section className="section">
       <Base>
-      <Center className="vertical-center">
-        <h1>Leasing-verkkosivut</h1>
-        <article className="section__article">
-        </article>
-        <aside className="workspace"></aside>
-      </Center>
+        <Center className="vertical-center">
+          <h1>Leasing-verkkosivut</h1>
+          <article className="section__article">
+            <p>Uusi tapa uudistaa yrityksesi ilme verkossa.</p>
+            <strong>Leasing-sivut alkaen 135€/kk</strong>
+          </article>
+        </Center>
       </Base>
+    </section>
+    <section className="section2">
+      <h2>Häh? Mitkä leasing-sivut?</h2>
+      <p>
+        Kyllä. Kuulitte oikein, verkkosivusto yritykselle leasing-perjaatteella.{' '}
+      </p>
+      <strong>Miksi?</strong>
+      <p>
+        Jos yritys ei halua tai pysty sijoittamaan kerralla tuhansia euroja
+        verkkosivustoon, RP-Solutions tarjoaa mahdollisuuden vaihtoehtoisesti
+        hankkimaa sivuston kiinteään kuukausihintaan.
+      </p>
+      <strong>Hinta?</strong>
+      <p>Leasing-verkkosivusto alkaen 135€/kk</p>
+      <strong>Mitä sisältää?</strong>
+      <p>Jokainen sivu räätälöidään asiakkaan toiveiden mukaan, mutta jokaiseen projektiin sisältyy vähintään:
+      </p>
+      <p>- Verkkosivun suunnittelu ja toteutus</p>
+      <p>- Sivuston kattava ylläpito</p>
+      <p>- Sähköpostipalvelu</p>
+      <p>- Hakukoneoptimointi</p>
+      <p>- SSL-sertifikaatti</p>
     </section>
 
     <style jsx>{`
@@ -44,9 +67,15 @@ import { Base } from '../../layouts/base';
       }
 
       .section__article {
+        margin: 5rem;
         padding: 5rem 0;
         text-align: center;
         color: #fff;
+      }
+
+      .section2 {
+        margin: 5rem;
+        min-height: 100vh;
       }
 
       aside {
@@ -85,4 +114,4 @@ import { Base } from '../../layouts/base';
   </>
 );
 
-export default index
+export default index;
