@@ -24,7 +24,7 @@ const index = () => (
       <p>
         Jos yritys ei halua tai pysty sijoittamaan kerralla tuhansia euroja
         verkkosivustoon, RP-Solutions tarjoaa mahdollisuuden vaihtoehtoisesti
-        hankkimaa sivuston kiinteään kuukausihintaan.
+        hankkimaan sivuston kiinteään kuukausihintaan.
       </p>
       <strong>Hinta?</strong>
       <p>Leasing-verkkosivusto alkaen 135€/kk</p>
