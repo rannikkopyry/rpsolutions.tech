@@ -38,5 +38,9 @@ export const items = [
         contact.scrollIntoView({ behavior: 'smooth' });
       }
     }
+  },
+  {
+    text: 'Leasing',
+    url: '/leasing',
   }
 ];
