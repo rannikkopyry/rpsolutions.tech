@@ -1,28 +1,18 @@
 import React from 'react';
 import { Center } from '../../components/center';
+import { Base } from '../../layouts/base';
 
  const index = () => (
   <>
     <section className="section">
+      <Base>
       <Center className="vertical-center">
+        <h1>Leasing-verkkosivut</h1>
         <article className="section__article">
-          <h2>
-            Miksi panostaisit yrityksesi näkyvyyteen ja <br /> toimiviin palveluihin verkossa?
-            <br />
-          </h2>
-          <p>
-            Kuvitellaan tilanne, jossa sinun yritykselläsi on verkkosivu vuodelta 2001 ja kilpailijalla on upouusi hakukoneoptimoitu sivusto sisällönhallintajärjestelmällä sekä verkkokaupalla.
-
-          </p>
-          <h4>Onko todennäköistä, että asiakas valitsee sinun palvelusi tai tuotteesi kilpailijan sijaan?</h4>
-          <h3>Se on mahdollista, muttei todennäköistä.</h3>
-          <p>
-          Eletään vuotta 2022 ja maailma on digitaalisempi kuin koskaan. Ihmisillä vauvasta vaariin löytyy mobiililaitteita, tietokoneita ja tabletteja.
-          Etätyö, etäopiskelu ja ostosten teko etänä ajavat ihmisiä yhä enemmän verkkopalveluiden käyttäjiksi. Verkossa on tulevaisuus eikä sitä ole järkevää jättää käyttämättä. Panosta siis yrityksesi näkyvyyteen internetissä heti tänään ja tee vaikutus asiakkaisiisi!
-          </p>
         </article>
         <aside className="workspace"></aside>
       </Center>
+      </Base>
     </section>
 
     <style jsx>{`
@@ -30,6 +20,7 @@ import { Center } from '../../components/center';
         display: flex;
         position: relative;
         background-color: #d0a699;
+        min-height: 100vh;
       }
       .section::before,
       .section::after {
