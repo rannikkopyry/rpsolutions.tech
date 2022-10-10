@@ -29,7 +29,9 @@ const index = () => (
       <strong>Hinta?</strong>
       <p>Leasing-verkkosivusto alkaen 135€/kk</p>
       <strong>Mitä sisältää?</strong>
-      <p>Jokainen sivu räätälöidään asiakkaan toiveiden mukaan, mutta jokaiseen projektiin sisältyy vähintään:
+      <p>
+        Jokainen sivu räätälöidään asiakkaan toiveiden mukaan, mutta jokaiseen
+        projektiin sisältyy vähintään:
       </p>
       <p>- Verkkosivun suunnittelu ja toteutus</p>
       <p>- Sivuston kattava ylläpito</p>
@@ -42,8 +44,10 @@ const index = () => (
       .section {
         display: flex;
         position: relative;
+        background: url('/static/skew.svg');
         background-color: #d0a699;
         min-height: 100vh;
+        color: #00000;
       }
       .section::before,
       .section::after {
@@ -70,11 +74,12 @@ const index = () => (
         margin: 5rem;
         padding: 5rem 0;
         text-align: center;
-        color: #fff;
+        color: #00000;
       }
 
       .section2 {
-        margin: 5rem;
+        padding: 5rem;
+        background-color: #d0a699;
         min-height: 100vh;
       }
 
