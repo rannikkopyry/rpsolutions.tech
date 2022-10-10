@@ -1,35 +1,53 @@
 import React from 'react';
 import { Center } from '../../components/center';
+import { Base } from '../../layouts/base';
 
- const index = () => (
+const index = () => (
   <>
     <section className="section">
-      <Center className="vertical-center">
-        <article className="section__article">
-          <h2>
-            Miksi panostaisit yrityksesi näkyvyyteen ja <br /> toimiviin palveluihin verkossa?
-            <br />
-          </h2>
-          <p>
-            Kuvitellaan tilanne, jossa sinun yritykselläsi on verkkosivu vuodelta 2001 ja kilpailijalla on upouusi hakukoneoptimoitu sivusto sisällönhallintajärjestelmällä sekä verkkokaupalla.
-
-          </p>
-          <h4>Onko todennäköistä, että asiakas valitsee sinun palvelusi tai tuotteesi kilpailijan sijaan?</h4>
-          <h3>Se on mahdollista, muttei todennäköistä.</h3>
-          <p>
-          Eletään vuotta 2022 ja maailma on digitaalisempi kuin koskaan. Ihmisillä vauvasta vaariin löytyy mobiililaitteita, tietokoneita ja tabletteja.
-          Etätyö, etäopiskelu ja ostosten teko etänä ajavat ihmisiä yhä enemmän verkkopalveluiden käyttäjiksi. Verkossa on tulevaisuus eikä sitä ole järkevää jättää käyttämättä. Panosta siis yrityksesi näkyvyyteen internetissä heti tänään ja tee vaikutus asiakkaisiisi!
-          </p>
-        </article>
-        <aside className="workspace"></aside>
-      </Center>
+      <Base>
+        <Center className="vertical-center">
+          <h1>Leasing-verkkosivut</h1>
+          <article className="section__article">
+            <p>Uusi tapa uudistaa yrityksesi ilme verkossa.</p>
+            <strong>Leasing-sivut alkaen 135€/kk</strong>
+          </article>
+        </Center>
+      </Base>
+    </section>
+    <section className="section2">
+      <h2>Häh? Mitkä leasing-sivut?</h2>
+      <p>
+        Kyllä. Kuulitte oikein, verkkosivusto yritykselle leasing-perjaatteella.{' '}
+      </p>
+      <strong>Miksi?</strong>
+      <p>
+        Jos yritys ei halua tai pysty sijoittamaan kerralla tuhansia euroja
+        verkkosivustoon, RP-Solutions tarjoaa mahdollisuuden vaihtoehtoisesti
+        hankkimaan sivuston kiinteään kuukausihintaan.
+      </p>
+      <strong>Hinta?</strong>
+      <p>Leasing-verkkosivusto alkaen 135€/kk</p>
+      <strong>Mitä sisältää?</strong>
+      <p>
+        Jokainen sivu räätälöidään asiakkaan toiveiden mukaan, mutta jokaiseen
+        projektiin sisältyy vähintään:
+      </p>
+      <p>- Verkkosivun suunnittelu ja toteutus</p>
+      <p>- Sivuston kattava ylläpito</p>
+      <p>- Sähköpostipalvelu</p>
+      <p>- Hakukoneoptimointi</p>
+      <p>- SSL-sertifikaatti</p>
     </section>
 
     <style jsx>{`
       .section {
         display: flex;
         position: relative;
+        background: url('/static/skew.svg');
         background-color: #d0a699;
+        min-height: 100vh;
+        color: #00000;
       }
       .section::before,
       .section::after {
@@ -53,9 +71,16 @@ import { Center } from '../../components/center';
       }
 
       .section__article {
+        margin: 5rem;
         padding: 5rem 0;
         text-align: center;
-        color: #fff;
+        color: #00000;
+      }
+
+      .section2 {
+        padding: 5rem;
+        background-color: #d0a699;
+        min-height: 100vh;
       }
 
       aside {
@@ -94,4 +119,4 @@ import { Center } from '../../components/center';
   </>
 );
 
-export default index
+export default index;
