@@ -7,6 +7,7 @@ const index = () => (
     <section className="section">
       <Base>
         <Center className="vertical-center">
+        <a href="/" className='link'>Takaisin</a>
           <h1>Leasing-verkkosivut</h1>
           <article className="section__article">
             <p>Uusi tapa uudistaa yrityksesi ilme verkossa.</p>
@@ -41,6 +42,10 @@ const index = () => (
     </section>
 
     <style jsx>{`
+      .link {
+        margin: 5rem;
+        text-decoration: none;
+      }
       .section {
         display: flex;
         position: relative;
