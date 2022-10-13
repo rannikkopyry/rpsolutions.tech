@@ -24,15 +24,15 @@ const index = () => (
       <p>
         Kyllä. Kuulitte oikein, verkkosivusto yritykselle leasing-perjaatteella.{' '}
       </p>
-      <strong>Miksi?</strong>
+      <h3>Miksi?</h3>
       <p>
         Jos yritys ei halua tai pysty sijoittamaan kerralla tuhansia euroja
         verkkosivustoon, RP-Solutions tarjoaa mahdollisuuden vaihtoehtoisesti
         hankkimaan sivuston kiinteään kuukausihintaan.
       </p>
-      <strong>Hinta?</strong>
+      <h3>Hinta?</h3>
       <p>Leasing-verkkosivusto alkaen 135€/kk</p>
-      <strong>Mitä sisältää?</strong>
+      <h3>Mitä sisältää?</h3>
       <p>
         Jokainen sivu räätälöidään asiakkaan toiveiden mukaan, mutta jokaiseen
         projektiin sisältyy vähintään:
@@ -47,6 +47,10 @@ const index = () => (
     </section>
 
     <style jsx>{`
+
+      h3 {
+        font-weight: bold;
+      }
       .link {
         margin: 5rem;
         text-decoration: none;
