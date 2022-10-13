@@ -1,6 +1,7 @@
 import React from 'react';
 import { Center } from '../../components/center';
 import { Base } from '../../layouts/base';
+import DoneOutlineIcon from '@mui/icons-material/DoneOutline';
 
 const index = () => (
   <>

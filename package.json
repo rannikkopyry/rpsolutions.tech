@@ -8,6 +8,7 @@
     "lint": "eslint \"**/*.{ts,tsx}\" --ignore-pattern .gitignore --color --quiet"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.10.9",
     "@types/cheerio": "^0.22.21",
     "@types/lodash": "^4.14.158",
     "@types/node": "^17.0.33",
