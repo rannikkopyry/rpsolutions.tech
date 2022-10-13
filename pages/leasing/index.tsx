@@ -1,13 +1,16 @@
 import React from 'react';
 import { Center } from '../../components/center';
 import { Base } from '../../layouts/base';
+import DoneOutlineIcon from '@mui/icons-material/DoneOutline';
 
 const index = () => (
   <>
     <section className="section">
       <Base>
         <Center className="vertical-center">
-        <a href="/" className='link'>Takaisin</a>
+          <a href="/" className="link">
+            Takaisin
+          </a>
           <h1>Leasing-verkkosivut</h1>
           <article className="section__article">
             <p>Uusi tapa uudistaa yrityksesi ilme verkossa.</p>
@@ -34,11 +37,13 @@ const index = () => (
         Jokainen sivu räätälöidään asiakkaan toiveiden mukaan, mutta jokaiseen
         projektiin sisältyy vähintään:
       </p>
-      <p>- Verkkosivun suunnittelu ja toteutus</p>
-      <p>- Sivuston kattava ylläpito</p>
-      <p>- Sähköpostipalvelu</p>
-      <p>- Hakukoneoptimointi</p>
-      <p>- SSL-sertifikaatti</p>
+      <div className="items">
+      <p className="item"><DoneOutlineIcon /> Verkkosivun suunnittelu ja toteutus </p>
+      <p className="item"><DoneOutlineIcon /> Sivuston kattava ylläpito</p>
+      <p className="item"><DoneOutlineIcon /> Sähköpostipalvelu</p>
+      <p className="item"><DoneOutlineIcon /> Hakukoneoptimointi</p>
+      <p className="item"><DoneOutlineIcon /> SSL-sertifikaatti</p>
+    </div>
     </section>
 
     <style jsx>{`
@@ -86,6 +91,14 @@ const index = () => (
         padding: 5rem;
         background-color: #d0a699;
         min-height: 100vh;
+      }
+
+      .items {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+
+      .item {
       }
 
       aside {
