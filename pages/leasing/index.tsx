@@ -8,15 +8,13 @@ const index = () => (
     <section className="section">
       <Base>
         <Center className="vertical-center">
-          <a href="/" className="link">
-            Takaisin
-          </a>
+          
           <h1>Leasing-verkkosivut</h1>
-          <article className="section__article">
+        </Center>
+        <article className="section__article">
             <p>Uusi tapa uudistaa yrityksesi ilme verkossa.</p>
             <strong>Leasing-sivut alkaen 135€/kk</strong>
           </article>
-        </Center>
       </Base>
     </section>
     <section className="section2">
@@ -41,8 +39,8 @@ const index = () => (
       <p className="item"><DoneOutlineIcon /> Verkkosivun suunnittelu ja toteutus </p>
       <p className="item"><DoneOutlineIcon /> Sivuston kattava ylläpito</p>
       <p className="item"><DoneOutlineIcon /> Sähköpostipalvelu</p>
-      <p className="item"><DoneOutlineIcon /> Hakukoneoptimointi</p>
       <p className="item"><DoneOutlineIcon /> SSL-sertifikaatti</p>
+      <p className="item"><DoneOutlineIcon /> Hakukoneoptimointi</p>
     </div>
     </section>
 
@@ -135,6 +133,14 @@ const index = () => (
           width: 100%;
           padding-left: 0;
           padding-right: 0;
+        }
+        .section__article {
+          margin: 2rem;
+        }
+
+        .items {
+          display: grid;
+          grid-template-columns: 15rem;
         }
       }
     `}</style>
