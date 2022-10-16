@@ -10,11 +10,11 @@ const index = () => (
         <Center className="vertical-center">
           
           <h1>Leasing-verkkosivut</h1>
-        </Center>
-        <article className="section__article">
+          <article className="section__article">
             <p>Uusi tapa uudistaa yrityksesi ilme verkossa.</p>
             <strong>Leasing-sivut alkaen 135€/kk</strong>
           </article>
+        </Center>
       </Base>
     </section>
     <section className="section2">
@@ -101,6 +101,7 @@ const index = () => (
       }
 
       .item {
+        margin: 1rem;
       }
 
       aside {
