@@ -42,6 +42,7 @@ const index = () => (
       <p className="item"><DoneOutlineIcon /> SSL-sertifikaatti</p>
       <p className="item"><DoneOutlineIcon /> Hakukoneoptimointi</p>
     </div>
+    <div className='link'><a href="/">Palaa etusivulle</a></div>
     </section>
 
     <style jsx>{`
@@ -102,6 +103,17 @@ const index = () => (
 
       .item {
         margin: 1rem;
+      }
+
+      .link {
+        align-items: center;
+        text-align: center;
+      }
+
+      .link a {
+        color: black;
+        font-size: 15px;
+        width: 50px;
       }
 
       aside {
