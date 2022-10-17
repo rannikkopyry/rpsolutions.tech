@@ -8,9 +8,7 @@ const index = () => (
     <section className="section">
       <Base>
         <Center className="vertical-center">
-          <a href="/" className="link">
-            Takaisin
-          </a>
+          
           <h1>Leasing-verkkosivut</h1>
           <article className="section__article">
             <p>Uusi tapa uudistaa yrityksesi ilme verkossa.</p>
@@ -41,9 +39,10 @@ const index = () => (
       <p className="item"><DoneOutlineIcon /> Verkkosivun suunnittelu ja toteutus </p>
       <p className="item"><DoneOutlineIcon /> Sivuston kattava ylläpito</p>
       <p className="item"><DoneOutlineIcon /> Sähköpostipalvelu</p>
-      <p className="item"><DoneOutlineIcon /> Hakukoneoptimointi</p>
       <p className="item"><DoneOutlineIcon /> SSL-sertifikaatti</p>
+      <p className="item"><DoneOutlineIcon /> Hakukoneoptimointi</p>
     </div>
+    <div className='link'><a href="/">Palaa etusivulle</a></div>
     </section>
 
     <style jsx>{`
@@ -103,6 +102,18 @@ const index = () => (
       }
 
       .item {
+        margin: 1rem;
+      }
+
+      .link {
+        align-items: center;
+        text-align: center;
+      }
+
+      .link a {
+        color: black;
+        font-size: 15px;
+        width: 50px;
       }
 
       aside {
@@ -135,6 +146,14 @@ const index = () => (
           width: 100%;
           padding-left: 0;
           padding-right: 0;
+        }
+        .section__article {
+          margin: 2rem;
+        }
+
+        .items {
+          display: grid;
+          grid-template-columns: 15rem;
         }
       }
     `}</style>
