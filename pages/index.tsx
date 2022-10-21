@@ -2,6 +2,7 @@ import React from 'react';
 import { AboutSection } from '../components/about-section';
 import { WorkspaceSection } from '../components/workspace-section';
 import { Layout } from '../layouts/index/layout';
+import Slider from '../components/slider';
 
 const Home = () => {
   return (
@@ -114,6 +115,7 @@ const Home = () => {
               <div>- Node, Express, GraphQL, PostgreSQL & MongoDB </div>
               <div>- AWS, Google Cloud Platform sekä Microsoft Azure </div>
             </div>
+            <Slider />
           </AboutSection>
         </div>
       </Layout>
