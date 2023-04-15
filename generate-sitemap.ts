@@ -10,4 +10,5 @@ sitemap({
   ignoreIndexFiles: true
 });
 
+// eslint-disable-next-line
 export {};
