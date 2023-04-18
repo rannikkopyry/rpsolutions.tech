@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
             <h3>RP-Solutions Oy</h3>
             <div>3229018-8</div>
             <div>+358&nbsp;45&nbsp;268&nbsp;4828</div>
-            <div>pyry.rannikko1@gmail.com</div>
+            <div>pyry.rannikko@rpsolutions.fi</div>
             <div>88610&nbsp;Vuokatti</div>
             <div>Finland</div>
 
@@ -32,13 +32,16 @@ export const Footer: React.FC = () => {
               <div>Operaattoritunnus: 003723327487</div>
             </address>
             <br />
-            <a href='https://koodiasuomesta.fi/' className="logo">
+            <a href="https://koodiasuomesta.fi/" className="logo">
               <img
-              height={250}
+                height={250}
                 src="../static/koodiasuomesta_white.png"
                 alt="RP-Solutions"
               />
             </a>
+          </div>
+          <div className="koodiasuomesta">
+            RP-Solutions Oy on Koodia Suomesta Ry:n jäsenyritys
           </div>
           <div className="copyright">
             <p>© 2022 - Kaikki oikeudet pidätetään </p>
@@ -80,6 +83,10 @@ export const Footer: React.FC = () => {
 
         .company-info {
           text-align: center;
+        }
+
+        .koodiasuomesta {
+          color: white;
         }
 
         address {
