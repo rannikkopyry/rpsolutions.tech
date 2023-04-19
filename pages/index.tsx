@@ -2,6 +2,7 @@ import React from 'react';
 import { AboutSection } from '../components/about-section';
 import { WorkspaceSection } from '../components/workspace-section';
 import { Layout } from '../layouts/index/layout';
+import Slider from '../components/slider';
 
 const Home = () => {
   return (
@@ -13,7 +14,6 @@ const Home = () => {
               Palvelumme
               <br />
             </h2>
-
             <p>
               Lähtökohtamme on aina kuunnella asiakkaan idea ja jalostaa siitä
               toimiva palvelu loppukäyttäjää varten.{' '}
@@ -66,21 +66,22 @@ const Home = () => {
             </p>
           </AboutSection>
           <div>
-          <AboutSection>
-            <h2>
-              Eikö etsimäsi löytynyt edellä mainituista?
-              <br />
-            </h2>
+            <AboutSection>
+              <h2>
+                Eikö etsimäsi löytynyt edellä mainituista?
+                <br />
+              </h2>
 
-            <p>
-              Jokaisella yrityksellä on erityiset tarpeensa ja me mukaudumme projektikohtaisesti asiakkaan mukaan. Vaikka tarpeenne olisi jotain muuta kuin edellisessä listassa, ota rohkeasti yhteyttä ja keskustellaan enemmän.
-              
-            </p>
-          </AboutSection>
+              <p>
+                Jokaisella yrityksellä on erityiset tarpeensa ja me mukaudumme
+                projektikohtaisesti asiakkaan mukaan. Vaikka tarpeenne olisi
+                jotain muuta kuin edellisessä listassa, ota rohkeasti yhteyttä
+                ja keskustellaan enemmän.
+              </p>
+            </AboutSection>
           </div>
         </div>
         <WorkspaceSection />
-
         <div id="toimintatapamme">
           <AboutSection>
             <h2>Toimintatapamme</h2>
@@ -114,6 +115,7 @@ const Home = () => {
               <div>- Node, Express, GraphQL, PostgreSQL & MongoDB </div>
               <div>- AWS, Google Cloud Platform sekä Microsoft Azure </div>
             </div>
+            <Slider />
           </AboutSection>
         </div>
       </Layout>

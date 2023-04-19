@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const sitemap = require('nextjs-sitemap-generator');
+export const sitemap = require('nextjs-sitemap-generator');
 
 sitemap({
   baseUrl: 'https://rpsolutions.fi',
@@ -9,5 +9,3 @@ sitemap({
   ignoredExtensions: ['png', 'jpg'],
   ignoreIndexFiles: true
 });
-
-export {};
