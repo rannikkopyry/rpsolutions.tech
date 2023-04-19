@@ -12,5 +12,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "marquee.widgets.npm-stats.packageNames": ["rpsolutions.tech"]
+  "marquee.widgets.npm-stats.packageNames": ["rpsolutions.fi"]
 }
