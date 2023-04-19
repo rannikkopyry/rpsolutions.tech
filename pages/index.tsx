@@ -14,7 +14,6 @@ const Home = () => {
               Palvelumme
               <br />
             </h2>
-
             <p>
               Lähtökohtamme on aina kuunnella asiakkaan idea ja jalostaa siitä
               toimiva palvelu loppukäyttäjää varten.{' '}
@@ -67,21 +66,22 @@ const Home = () => {
             </p>
           </AboutSection>
           <div>
-          <AboutSection>
-            <h2>
-              Eikö etsimäsi löytynyt edellä mainituista?
-              <br />
-            </h2>
+            <AboutSection>
+              <h2>
+                Eikö etsimäsi löytynyt edellä mainituista?
+                <br />
+              </h2>
 
-            <p>
-              Jokaisella yrityksellä on erityiset tarpeensa ja me mukaudumme projektikohtaisesti asiakkaan mukaan. Vaikka tarpeenne olisi jotain muuta kuin edellisessä listassa, ota rohkeasti yhteyttä ja keskustellaan enemmän.
-              
-            </p>
-          </AboutSection>
+              <p>
+                Jokaisella yrityksellä on erityiset tarpeensa ja me mukaudumme
+                projektikohtaisesti asiakkaan mukaan. Vaikka tarpeenne olisi
+                jotain muuta kuin edellisessä listassa, ota rohkeasti yhteyttä
+                ja keskustellaan enemmän.
+              </p>
+            </AboutSection>
           </div>
         </div>
         <WorkspaceSection />
-
         <div id="toimintatapamme">
           <AboutSection>
             <h2>Toimintatapamme</h2>

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build && next export && ts-node generate-sitemap.ts",
+    "build": "next build && next export",
     "start": "next dev",
     "lint": "eslint \"**/*.{ts,tsx}\" --ignore-pattern .gitignore --color --quiet"
   },
