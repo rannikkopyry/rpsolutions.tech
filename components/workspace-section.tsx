@@ -7,18 +7,28 @@ export const WorkspaceSection: React.FC = () => (
       <Center className="vertical-center">
         <article className="section__article">
           <h2>
-            Miksi panostaisit yrityksesi näkyvyyteen ja <br /> toimiviin palveluihin verkossa?
+            Miksi panostaisit yrityksesi näkyvyyteen ja <br /> toimiviin
+            palveluihin verkossa?
             <br />
           </h2>
           <p>
-            Kuvitellaan tilanne, jossa sinun yritykselläsi on verkkosivu vuodelta 2001 ja kilpailijalla on upouusi hakukoneoptimoitu sivusto sisällönhallintajärjestelmällä sekä verkkokaupalla.
-
+            Kuvitellaan tilanne, jossa sinun yritykselläsi on verkkosivu
+            vuodelta 2001 ja kilpailijalla on upouusi hakukoneoptimoitu sivusto
+            sisällönhallintajärjestelmällä sekä verkkokaupalla.
           </p>
-          <h4>Onko todennäköistä, että asiakas valitsee sinun palvelusi tai tuotteesi kilpailijan sijaan?</h4>
+          <h4>
+            Onko todennäköistä, että asiakas valitsee sinun palvelusi tai
+            tuotteesi kilpailijan sijaan?
+          </h4>
           <h3>Se on mahdollista, muttei todennäköistä.</h3>
           <p>
-          Eletään vuotta 2022 ja maailma on digitaalisempi kuin koskaan. Ihmisillä vauvasta vaariin löytyy mobiililaitteita, tietokoneita ja tabletteja.
-          Etätyö, etäopiskelu ja ostosten teko etänä ajavat ihmisiä yhä enemmän verkkopalveluiden käyttäjiksi. Verkossa on tulevaisuus eikä sitä ole järkevää jättää käyttämättä. Panosta siis yrityksesi näkyvyyteen internetissä heti tänään ja tee vaikutus asiakkaisiisi!
+            Eletään vuotta 2023 ja maailma on digitaalisempi kuin koskaan.
+            Ihmisillä vauvasta vaariin löytyy mobiililaitteita, tietokoneita ja
+            tabletteja. Etätyö, etäopiskelu ja ostosten teko etänä ajavat
+            ihmisiä yhä enemmän verkkopalveluiden käyttäjiksi. Verkossa on
+            tulevaisuus eikä sitä ole järkevää jättää käyttämättä. Panosta siis
+            yrityksesi näkyvyyteen internetissä heti tänään ja tee vaikutus
+            asiakkaisiisi!
           </p>
         </article>
         <aside className="workspace"></aside>

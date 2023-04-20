@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
             RP-Solutions Oy on Koodia Suomesta Ry:n jäsenyritys
           </div>
           <div className="copyright">
-            <p>© 2022 - Kaikki oikeudet pidätetään </p>
+            <p>© 2023 - Kaikki oikeudet pidätetään </p>
           </div>
         </div>
       </Center>
