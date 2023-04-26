@@ -17,11 +17,17 @@ export const Footer: React.FC = () => {
           <address className="location">
             <h3>RP-Solutions Oy</h3>
             <div>3229018-8</div>
-            <div>+358&nbsp;45&nbsp;268&nbsp;4828</div>
-            <div>pyry.rannikko@rpsolutions.fi</div>
             <div>88610&nbsp;Vuokatti</div>
             <div>Finland</div>
-
+            <h3>Hallinto</h3>
+            <div>
+              {' '}
+              Toimitusjohtaja <strong>Pyry Rannikko</strong>
+            </div>
+            <div>+358&nbsp;45&nbsp;268&nbsp;4828</div>
+            <div>pyry.rannikko@rpsolutions.fi</div>
+            <h3>Myynti</h3>
+            <div>myynti@rpsolutions.fi</div>
             <br />
           </address>
           <div className="company-invoicing">
