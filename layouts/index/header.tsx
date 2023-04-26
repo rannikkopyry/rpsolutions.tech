@@ -8,7 +8,6 @@ export const Header: React.FC = () => (
     <Nav />
     <Center className="hero__wrapper">
       <section className="hero__content">
-        <SvgTausta />
         <article className="hero__article">
           <h1 className="title">
             Kainuulaista <br />
