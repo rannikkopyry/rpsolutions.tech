@@ -10,8 +10,8 @@ const index = () => (
         <Center className="vertical-center">
           <h1>Leasing-verkkosivut</h1>
           <article className="section__article">
-            <p>Uusi tapa uudistaa yrityksesi ilme verkossa.</p>
-            <strong>Leasing-sivut alkaen 135€/kk</strong>
+            <h2>Uusi tapa uudistaa yrityksesi ilme verkossa.</h2>
+            <h3>Leasing-sivut alkaen 135€/kk</h3>
           </article>
         </Center>
       </Base>
