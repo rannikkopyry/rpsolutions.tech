@@ -24,11 +24,10 @@ export const Footer: React.FC = () => {
               {' '}
               Toimitusjohtaja <strong>Pyry Rannikko</strong>
             </div>
-            <div>+358&nbsp;45&nbsp;268&nbsp;4828</div>
+            <div>045&nbsp;268&nbsp;4828</div>
             <div>pyry.rannikko@rpsolutions.fi</div>
             <h3>Myynti</h3>
             <div>myynti@rpsolutions.fi</div>
-            <br />
           </address>
           <div className="company-invoicing">
             <address>

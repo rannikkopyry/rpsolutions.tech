@@ -81,43 +81,6 @@ const Home = () => {
             </AboutSection>
           </div>
         </div>
-        <WorkspaceSection />
-        <div id="toimintatapamme">
-          <AboutSection>
-            <h2>Toimintatapamme</h2>
-            <p>
-              Autamme teitä luomaan pitkäjänteisiä ohjelmistoratkaisuja
-              käyttäjäkokemus etusijalla.{' '}
-            </p>
-            <h2>Mutta kuinka me teemme sen?</h2>
-            <h3>Ketterä kehitys</h3>
-            <p>
-              Ketterät ohjelmistoprojektit jaetaan eri pituisiin "sprintteihin".
-              Sprintit voivat olla eripituisia ja sisällöltään hyvin erilaisia,
-              mutta olennaisinta on niiden aikana ja välissä tapahtuma viestintä
-              asiakkaan ja kehittäjän välillä. Kun on selvillä tarpeet ja
-              mahdollisuudet, on helppo toteuttaa näyttävä lopputulos.
-              Ohjelmistoprojektit alkavat aina huolellisella suunnittelulla ja
-              asiakkaan kanssa yhdessä kartoitetaan vaatimukset ja toiveet.
-            </p>
-            <h3>Teknologiat</h3>
-            <p>
-              Pystyäksemme tuottamaan mahdollisimman käyttäjäystävällisiä sekä
-              skaalautuvia tuotteita, käytämme aina edistyneimpiä teknologioita
-              ja työkaluja sekä ohjelmointikieliä.
-            </p>
-            <br />
-            <h4>Näistä esimerkkeinä mm.</h4>
-            <br />
-            <div className="examples">
-              <div>- TypeScipt & React </div>
-              <div>- React Native </div>
-              <div>- Node, Express, GraphQL, PostgreSQL & MongoDB </div>
-              <div>- AWS, Google Cloud Platform sekä Microsoft Azure </div>
-            </div>
-            <Slider />
-          </AboutSection>
-        </div>
       </Layout>
       <style jsx>{`
         @media (max-width: 800px) {
