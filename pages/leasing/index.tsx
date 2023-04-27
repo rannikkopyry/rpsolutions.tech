@@ -50,6 +50,9 @@ const index = () => (
         <h3 className="item">
           <DoneOutlineIcon /> Hakukoneoptimointi
         </h3>
+        <h3 className="item">
+          <DoneOutlineIcon /> Sisältöpäivitykset
+        </h3>
       </div>
       <div className="link">
         <a href="/">Palaa etusivulle</a>
@@ -113,6 +116,8 @@ const index = () => (
 
       .item {
         margin: 1rem;
+        padding: 1rem;
+        border: 3px solid black;
       }
 
       .link {
