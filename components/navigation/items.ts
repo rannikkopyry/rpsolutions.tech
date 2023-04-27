@@ -16,18 +16,6 @@ export const items = [
     }
   },
   {
-    url: '#toimintatapamme',
-    text: 'Toimintatapamme',
-    onClick: (event?: React.MouseEvent) => {
-      const toimintatapamme = document.getElementById('toimintatapamme');
-
-      if (toimintatapamme && event) {
-        event.preventDefault();
-        toimintatapamme.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  },
-  {
     text: 'Ota yhteyttä',
     url: '#contact',
     onClick: (event?: React.MouseEvent) => {
@@ -41,6 +29,6 @@ export const items = [
   },
   {
     text: 'Leasing',
-    url: '/leasing',
+    url: '/leasing'
   }
 ];
