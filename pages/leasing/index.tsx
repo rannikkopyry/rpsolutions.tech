@@ -35,21 +35,21 @@ const index = () => (
         projektiin sisältyy vähintään:
       </p>
       <div className="items">
-        <p className="item">
+        <h3 className="item">
           <DoneOutlineIcon /> Verkkosivun suunnittelu ja toteutus{' '}
-        </p>
-        <p className="item">
+        </h3>
+        <h3 className="item">
           <DoneOutlineIcon /> Sivuston kattava ylläpito
-        </p>
-        <p className="item">
+        </h3>
+        <h3 className="item">
           <DoneOutlineIcon /> Sähköpostipalvelu
-        </p>
-        <p className="item">
+        </h3>
+        <h3 className="item">
           <DoneOutlineIcon /> SSL-sertifikaatti
-        </p>
-        <p className="item">
+        </h3>
+        <h3 className="item">
           <DoneOutlineIcon /> Hakukoneoptimointi
-        </p>
+        </h3>
       </div>
       <div className="link">
         <a href="/">Palaa etusivulle</a>
