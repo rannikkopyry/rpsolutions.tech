@@ -11,20 +11,22 @@ export const Header: React.FC = () => (
         <article className="hero__article">
           <h1 className="title">
             Näkyvyyttä, <br />
-            sujuvuutta, <br />
-            ja helppoutta
+            huolettomuutta, <br />
+            ja liidejä.
           </h1>
+        </article>
+        <div className="desc_wrapper">
           <p className="description">
             Tuotamme verkkopalveluita erityisesti pienille ja keskisuurille
-            yrityksille. Erityisosaamisemme painottuu matkailu ja ravintola-alan
-            tarpeisiin. <br />
+            yrityksille. Erityisosaamisemme painottuu arktisen matkailu- ja
+            ravintola-alan tarpeisiin. <br />
           </p>
           <p className="ending">
-            {/* <span className="gray">
-              Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
-            </span> */}
+            <p className="gray">
+              Kysy rohkeasti sähköpostilla myynti@rpsolutions.fi
+            </p>
           </p>
-        </article>
+        </div>
       </section>
     </Center>
 
@@ -42,8 +44,13 @@ export const Header: React.FC = () => (
       }
 
       .gray {
-        color: #00000;
+        background: black;
+        color: white;
         font-size: 1.5rem;
+        font-weight: bold;
+        padding: 1rem;
+        text-align: center;
+        opacity: 0.7;
       }
 
       // To stay on top of the svg
@@ -60,7 +67,6 @@ export const Header: React.FC = () => (
 
       :global(#colorlines) {
         position: absolute;
-
         right: 0;
         bottom: 0;
         width: 50%;
@@ -69,7 +75,6 @@ export const Header: React.FC = () => (
 
       :global(.hero__wrapper) {
         display: flex;
-        flex-direction: column;
         flex-grow: 1;
       }
 
@@ -86,11 +91,12 @@ export const Header: React.FC = () => (
       }
 
       .title {
-        font-size: 5.5rem;
+        font-size: 6.5rem;
       }
 
       .description {
-        font-size: 1.5rem;
+        margin-left: 3.5rem;
+        font-size: 2rem;
         font-weight: bold;
         width: 75%;
       }
@@ -125,7 +131,7 @@ export const Header: React.FC = () => (
 
       @media (max-width: 450px) {
         .title {
-          font-size: 2.1rem;
+          font-size: 3.1rem;
           max-width: 200px;
         }
 

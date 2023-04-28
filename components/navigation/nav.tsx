@@ -37,11 +37,15 @@ export const Nav = () => (
           display: flex;
           align-items: center;
           margin-top: 1.5rem;
-          font-size: 16px;
-          font-weight: 500;
+          font-size: 18px;
+          font-weight: 600;
           // To stay on top of colorlines
           z-index: 2;
           position: relative;
+        }
+
+        .myynti {
+          right: 0;
         }
 
         a {
