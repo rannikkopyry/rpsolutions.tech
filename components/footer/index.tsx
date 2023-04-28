@@ -17,12 +17,17 @@ export const Footer: React.FC = () => {
           <address className="location">
             <h3>RP-Solutions Oy</h3>
             <div>3229018-8</div>
-            <div>+358&nbsp;45&nbsp;268&nbsp;4828</div>
-            <div>pyry.rannikko@rpsolutions.fi</div>
             <div>88610&nbsp;Vuokatti</div>
             <div>Finland</div>
-
-            <br />
+            <h3>Hallinto</h3>
+            <div>
+              {' '}
+              Toimitusjohtaja <strong>Pyry Rannikko</strong>
+            </div>
+            <div>045&nbsp;268&nbsp;4828</div>
+            <div>pyry.rannikko@rpsolutions.fi</div>
+            <h3>Myynti</h3>
+            <div>myynti@rpsolutions.fi</div>
           </address>
           <div className="company-invoicing">
             <address>
@@ -44,7 +49,7 @@ export const Footer: React.FC = () => {
             RP-Solutions Oy on Koodia Suomesta Ry:n jäsenyritys
           </div>
           <div className="copyright">
-            <p>© 2022 - Kaikki oikeudet pidätetään </p>
+            <p>© 2023 - Kaikki oikeudet pidätetään </p>
           </div>
         </div>
       </Center>

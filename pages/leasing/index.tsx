@@ -8,11 +8,10 @@ const index = () => (
     <section className="section">
       <Base>
         <Center className="vertical-center">
-          
           <h1>Leasing-verkkosivut</h1>
           <article className="section__article">
-            <p>Uusi tapa uudistaa yrityksesi ilme verkossa.</p>
-            <strong>Leasing-sivut alkaen 135€/kk</strong>
+            <h2>Uusi tapa uudistaa yrityksesi ilme verkossa.</h2>
+            <h3>Leasing-sivut alkaen 135€/kk</h3>
           </article>
         </Center>
       </Base>
@@ -29,24 +28,38 @@ const index = () => (
         hankkimaan sivuston kiinteään kuukausihintaan.
       </p>
       <h3>Hinta?</h3>
-      <p>Leasing-verkkosivusto alkaen 135€/kk</p>
+      <p>Leasing-verkkosivusto alkaen 129€/kk</p>
       <h3>Mitä sisältää?</h3>
       <p>
         Jokainen sivu räätälöidään asiakkaan toiveiden mukaan, mutta jokaiseen
         projektiin sisältyy vähintään:
       </p>
       <div className="items">
-      <p className="item"><DoneOutlineIcon /> Verkkosivun suunnittelu ja toteutus </p>
-      <p className="item"><DoneOutlineIcon /> Sivuston kattava ylläpito</p>
-      <p className="item"><DoneOutlineIcon /> Sähköpostipalvelu</p>
-      <p className="item"><DoneOutlineIcon /> SSL-sertifikaatti</p>
-      <p className="item"><DoneOutlineIcon /> Hakukoneoptimointi</p>
-    </div>
-    <div className='link'><a href="/">Palaa etusivulle</a></div>
+        <h3 className="item">
+          <DoneOutlineIcon /> Verkkosivun suunnittelu ja toteutus{' '}
+        </h3>
+        <h3 className="item">
+          <DoneOutlineIcon /> Sivuston kattava ylläpito
+        </h3>
+        <h3 className="item">
+          <DoneOutlineIcon /> Sähköpostipalvelu
+        </h3>
+        <h3 className="item">
+          <DoneOutlineIcon /> SSL-sertifikaatti
+        </h3>
+        <h3 className="item">
+          <DoneOutlineIcon /> Hakukoneoptimointi
+        </h3>
+        <h3 className="item">
+          <DoneOutlineIcon /> Sisältöpäivitykset
+        </h3>
+      </div>
+      <div className="link">
+        <a href="/">Palaa etusivulle</a>
+      </div>
     </section>
 
     <style jsx>{`
-
       h3 {
         font-weight: bold;
       }
@@ -103,6 +116,8 @@ const index = () => (
 
       .item {
         margin: 1rem;
+        padding: 1rem;
+        border: 3px solid black;
       }
 
       .link {
