@@ -32,11 +32,7 @@ export const Header: React.FC = () => (
       .hero {
         display: flex;
         flex-direction: column;
-        background: linear-gradient(
-          95.62deg,
-          #d0a699 40.28%,
-          hsla(210, 100%, 3%, 1) 99.06%
-        );
+        background-image: url('/static/bg.jpg');
         color: #00000;
         padding-bottom: 1rem;
         min-height: 100%;
@@ -89,8 +85,13 @@ export const Header: React.FC = () => (
         z-index: 1;
       }
 
+      .title {
+        font-size: 5.5rem;
+      }
+
       .description {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
         width: 75%;
       }
 
