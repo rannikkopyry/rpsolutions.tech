@@ -11,7 +11,7 @@ const index = () => (
           <h1>Leasing-verkkosivut</h1>
           <article className="section__article">
             <h2>Uusi tapa uudistaa yrityksesi ilme verkossa.</h2>
-            <h3>Leasing-sivut alkaen 135€/kk</h3>
+            <h3>Leasing-sivut alkaen 129€/kk</h3>
           </article>
         </Center>
       </Base>
@@ -24,8 +24,8 @@ const index = () => (
       <h3>Miksi?</h3>
       <p>
         Jos yritys ei halua tai pysty sijoittamaan kerralla tuhansia euroja
-        verkkosivustoon, RP-Solutions tarjoaa mahdollisuuden vaihtoehtoisesti
-        hankkimaan sivuston kiinteään kuukausihintaan.
+        verkkosivustoon,tarjoamme mahdollisuuden vaihtoehtoisesti hankkimaan
+        sivuston kiinteään kuukausihintaan.
       </p>
       <h3>Hinta?</h3>
       <p>Leasing-verkkosivusto alkaen 129€/kk</p>

@@ -10,14 +10,14 @@ export const Header: React.FC = () => (
       <section className="hero__content">
         <article className="hero__article">
           <h1 className="title">
-            Kainuulaista <br />
-            ohjelmistokehitystä <br />
-            nuorekkaalla otteella.
+            Näkyvyyttä, <br />
+            sujuvuutta, <br />
+            ja helppoutta
           </h1>
           <p className="description">
-            Tuotamme softaa hyödyntäen tämän hetken kuumimpia teknologioita.
-            Autamme kaikenkokoisia yrityksiä joustavasti sijainnista ja
-            toimialasta riippumatta. <br />
+            Tuotamme verkkopalveluita erityisesti pienille ja keskisuurille
+            yrityksille. Erityisosaamisemme painottuu matkailu ja ravintola-alan
+            tarpeisiin. <br />
           </p>
           <p className="ending">
             {/* <span className="gray">
