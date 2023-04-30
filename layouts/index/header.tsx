@@ -12,16 +12,15 @@ export const Header: React.FC = () => (
           <h1 className="title">
             Näkyvyyttä, <br />
             huolettomuutta, <br />
-            ja liidejä.
+            ja omaa ilmettä.
           </h1>
-        </article>
-        <div className="desc_wrapper">
           <p className="description">
             Tuotamme verkkopalveluita erityisesti pienille ja keskisuurille
             yrityksille. Erityisosaamisemme painottuu arktisen matkailu- ja
             ravintola-alan tarpeisiin. <br />
           </p>
-        </div>
+        </article>
+        <div className="desc_wrapper"></div>
       </section>
     </Center>
 
@@ -90,10 +89,11 @@ export const Header: React.FC = () => (
       }
 
       .description {
-        margin-left: 3.5rem;
         font-size: 2rem;
         font-weight: bold;
         width: 75%;
+        background-color: white;
+        padding: 1rem;
       }
 
       @media (max-width: 1330px) {
@@ -119,7 +119,7 @@ export const Header: React.FC = () => (
         }
 
         .title {
-          font-size: 2rem;
+          font-size: 4rem;
         }
 
         .description {
