@@ -21,11 +21,6 @@ export const Header: React.FC = () => (
             yrityksille. Erityisosaamisemme painottuu arktisen matkailu- ja
             ravintola-alan tarpeisiin. <br />
           </p>
-          <p className="ending">
-            <p className="gray">
-              Kysy rohkeasti sähköpostilla myynti@rpsolutions.fi
-            </p>
-          </p>
         </div>
       </section>
     </Center>
@@ -123,6 +118,10 @@ export const Header: React.FC = () => (
           width: 100%;
         }
 
+        .title {
+          font-size: 2rem;
+        }
+
         .description {
           font-size: 1.1rem;
           width: 60%;
@@ -131,7 +130,7 @@ export const Header: React.FC = () => (
 
       @media (max-width: 450px) {
         .title {
-          font-size: 3.1rem;
+          font-size: 2.9rem;
           max-width: 200px;
         }
 
@@ -140,13 +139,6 @@ export const Header: React.FC = () => (
           min-width: 100%;
         }
 
-        .description {
-          font-size: 1.2rem;
-          font-weight: bold;
-          width: auto;
-          opacity: 1;
-          color: #000;
-        }
         .ending {
           color: #000;
         }
