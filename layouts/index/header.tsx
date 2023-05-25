@@ -91,7 +91,6 @@ export const Header: React.FC = () => (
       .description {
         font-size: 2rem;
         font-weight: bold;
-        width: 75%;
         background-color: white;
         padding: 1rem;
       }
