@@ -73,11 +73,7 @@ export const Footer: React.FC = () => {
           grid-gap: 2rem;
         }
         .footer {
-          background: linear-gradient(
-            95.62deg,
-            #d0a699 40.28%,
-            hsla(210, 100%, 3%, 1) 99.06%
-          );
+          background-image: url('/static/bg2.jpg');
           padding: 3rem 0;
           color: #00000;
         }

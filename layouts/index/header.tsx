@@ -10,21 +10,17 @@ export const Header: React.FC = () => (
       <section className="hero__content">
         <article className="hero__article">
           <h1 className="title">
-            Kainuulaista <br />
-            ohjelmistokehitystä <br />
-            nuorekkaalla otteella.
+            Näkyvyyttä, <br />
+            huolettomuutta, <br />
+            ja omaa ilmettä.
           </h1>
           <p className="description">
-            Tuotamme softaa hyödyntäen tämän hetken kuumimpia teknologioita.
-            Autamme kaikenkokoisia yrityksiä joustavasti sijainnista ja
-            toimialasta riippumatta. <br />
-          </p>
-          <p className="ending">
-            {/* <span className="gray">
-              Ota rohkeasti yhteyttä ja luodaan yhdessä jotain vaikuttavaa!
-            </span> */}
+            Tuotamme verkkopalveluita erityisesti pienille ja keskisuurille
+            yrityksille. Erityisosaamisemme painottuu arktisen matkailu- ja
+            ravintola-alan tarpeisiin. <br />
           </p>
         </article>
+        <div className="desc_wrapper"></div>
       </section>
     </Center>
 
@@ -32,11 +28,7 @@ export const Header: React.FC = () => (
       .hero {
         display: flex;
         flex-direction: column;
-        background: linear-gradient(
-          95.62deg,
-          #d0a699 40.28%,
-          hsla(210, 100%, 3%, 1) 99.06%
-        );
+        background-image: url('/static/bg.jpg');
         color: #00000;
         padding-bottom: 1rem;
         min-height: 100%;
@@ -46,8 +38,13 @@ export const Header: React.FC = () => (
       }
 
       .gray {
-        color: #00000;
+        background: black;
+        color: white;
         font-size: 1.5rem;
+        font-weight: bold;
+        padding: 1rem;
+        text-align: center;
+        opacity: 0.7;
       }
 
       // To stay on top of the svg
@@ -64,7 +61,6 @@ export const Header: React.FC = () => (
 
       :global(#colorlines) {
         position: absolute;
-
         right: 0;
         bottom: 0;
         width: 50%;
@@ -73,7 +69,6 @@ export const Header: React.FC = () => (
 
       :global(.hero__wrapper) {
         display: flex;
-        flex-direction: column;
         flex-grow: 1;
       }
 
@@ -89,9 +84,15 @@ export const Header: React.FC = () => (
         z-index: 1;
       }
 
+      .title {
+        font-size: 6.5rem;
+      }
+
       .description {
-        font-size: 1.2rem;
-        width: 75%;
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: white;
+        padding: 1rem;
       }
 
       @media (max-width: 1330px) {
@@ -116,6 +117,10 @@ export const Header: React.FC = () => (
           width: 100%;
         }
 
+        .title {
+          font-size: 4rem;
+        }
+
         .description {
           font-size: 1.1rem;
           width: 60%;
@@ -124,7 +129,7 @@ export const Header: React.FC = () => (
 
       @media (max-width: 450px) {
         .title {
-          font-size: 2.1rem;
+          font-size: 2.9rem;
           max-width: 200px;
         }
 
@@ -133,13 +138,6 @@ export const Header: React.FC = () => (
           min-width: 100%;
         }
 
-        .description {
-          font-size: 1.2rem;
-          font-weight: bold;
-          width: auto;
-          opacity: 1;
-          color: #000;
-        }
         .ending {
           color: #000;
         }
