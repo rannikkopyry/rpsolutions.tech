@@ -152,7 +152,6 @@ export const BurgerMenu: React.FC<BurgerMenuProps> = ({
 
         #menu a {
           color: #000;
-          background-color: #d0a699;
           font-size: 1.7rem;
           text-decoration: none;
           padding: 6px;
