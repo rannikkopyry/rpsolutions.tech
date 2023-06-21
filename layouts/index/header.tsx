@@ -95,7 +95,7 @@ export const Header: React.FC = () => (
         padding: 1rem;
       }
 
-      @media (max-width: 1330px) {
+    @media (max-width: 1330px) {
         .description {
           width: 40%;
         }
